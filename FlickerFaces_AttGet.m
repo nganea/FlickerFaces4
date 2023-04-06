@@ -171,7 +171,7 @@ while t1 < maxDur
                 Screen('Close', movTex);
                 movTex = -1;
                 Screen('PlayMovie', movTmp, 0);
-                Screen('CloseMovie',movTmp);
+                Screen('CloseMovie', movTmp);
             end
             movEnded = 1;
             if any(keyCode(ESC))

@@ -1,0 +1,1925 @@
+For the participant 99
+Screen refresh rate is 59.9444 Hz
+Duration of refresh cycle is 16.6821 ms
+A disc flickering at 15 is displayed each 66.7284 ms
+A disc flickering at 12 is displayed each 83.4106 ms
+A true estimation of the frequency 1 of stimulation is 14.9861 Hz
+A true estimation of the frequency 2 of stimulation is 11.9889 Hz
+The true Total duration of sequence is 6.6728 s
+The true Critical duration of sequence is 5.3395 s
+The disc flickering at 15 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 64 critical items 8 + 8 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9452 Hz
+Duration of refresh cycle is 16.6819 ms
+A disc flickering at 6 is displayed each 166.8189 ms
+A disc flickering at 12 is displayed each 83.4095 ms
+A true estimation of the frequency 1 of stimulation is 5.9945 Hz
+A true estimation of the frequency 2 of stimulation is 11.989 Hz
+The true Total duration of sequence is 16.6819 s
+The true Critical duration of sequence is 13.3486 s
+The disc flickering at 6 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 160 critical items 20 + 20 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9414 Hz
+Duration of refresh cycle is 16.683 ms
+A disc flickering at 6 is displayed each 166.8297 ms
+A disc flickering at 12 is displayed each 83.4148 ms
+A true estimation of the frequency 1 of stimulation is 5.9941 Hz
+A true estimation of the frequency 2 of stimulation is 11.9883 Hz
+The true Total duration of sequence is 16.683 s
+The true Critical duration of sequence is 13.3496 s
+The disc flickering at 6 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 160 critical items 20 + 20 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9384 Hz
+Duration of refresh cycle is 16.6838 ms
+A disc flickering at 6 is displayed each 166.838 ms
+A disc flickering at 12 is displayed each 83.419 ms
+A true estimation of the frequency 1 of stimulation is 5.9938 Hz
+A true estimation of the frequency 2 of stimulation is 11.9877 Hz
+The true Total duration of sequence is 16.6838 s
+The true Critical duration of sequence is 13.3505 s
+The disc flickering at 6 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 160 critical items 20 + 20 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9502 Hz
+Duration of refresh cycle is 16.6805 ms
+A disc flickering at 6 is displayed each 166.8051 ms
+A disc flickering at 12 is displayed each 83.4026 ms
+A true estimation of the frequency 1 of stimulation is 5.995 Hz
+A true estimation of the frequency 2 of stimulation is 11.99 Hz
+The true Total duration of sequence is 16.6805 s
+The true Critical duration of sequence is 13.3472 s
+The disc flickering at 6 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 160 critical items 20 + 20 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9361 Hz
+Duration of refresh cycle is 16.6844 ms
+A disc flickering at 6 is displayed each 166.8442 ms
+A disc flickering at 12 is displayed each 83.4221 ms
+A true estimation of the frequency 1 of stimulation is 5.9936 Hz
+A true estimation of the frequency 2 of stimulation is 11.9872 Hz
+The true Total duration of sequence is 16.6844 s
+The true Critical duration of sequence is 13.3511 s
+The disc flickering at 6 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 160 critical items 20 + 20 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9377 Hz
+Duration of refresh cycle is 16.684 ms
+A disc flickering at 6 is displayed each 166.84 ms
+A disc flickering at 12 is displayed each 83.42 ms
+A true estimation of the frequency 1 of stimulation is 5.9938 Hz
+A true estimation of the frequency 2 of stimulation is 11.9875 Hz
+The true Total duration of sequence is 16.684 s
+The true Critical duration of sequence is 13.3507 s
+The disc flickering at 6 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 160 critical items 20 + 20 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9932 Hz
+Duration of refresh cycle is 16.6686 ms
+A disc flickering at 6 is displayed each 166.6857 ms
+A disc flickering at 12 is displayed each 83.3428 ms
+A true estimation of the frequency 1 of stimulation is 5.9993 Hz
+A true estimation of the frequency 2 of stimulation is 11.9986 Hz
+The true Total duration of sequence is 10.0011 s
+The true Critical duration of sequence is 8.3345 s
+The disc flickering at 6 Hz has 50 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 100 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9559 Hz
+Duration of refresh cycle is 16.6789 ms
+A disc flickering at 6 is displayed each 166.7894 ms
+A disc flickering at 12 is displayed each 83.3947 ms
+A true estimation of the frequency 1 of stimulation is 5.9956 Hz
+A true estimation of the frequency 2 of stimulation is 11.9912 Hz
+The true Total duration of sequence is 10.0074 s
+The true Critical duration of sequence is 8.3407 s
+The disc flickering at 6 Hz has 50 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 100 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9592 Hz
+Duration of refresh cycle is 16.678 ms
+A disc flickering at 6 is displayed each 166.7799 ms
+A disc flickering at 12 is displayed each 83.39 ms
+A true estimation of the frequency 1 of stimulation is 5.9959 Hz
+A true estimation of the frequency 2 of stimulation is 11.9918 Hz
+The true Total duration of sequence is 10.0068 s
+The true Critical duration of sequence is 8.3401 s
+The disc flickering at 6 Hz has 50 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 100 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9321 Hz
+Duration of refresh cycle is 16.6855 ms
+A disc flickering at 6 is displayed each 166.8554 ms
+A disc flickering at 12 is displayed each 83.4277 ms
+A true estimation of the frequency 1 of stimulation is 5.9932 Hz
+A true estimation of the frequency 2 of stimulation is 11.9864 Hz
+The true Total duration of sequence is 10.0113 s
+The true Critical duration of sequence is 8.3447 s
+The disc flickering at 6 Hz has 50 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 100 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9394 Hz
+Duration of refresh cycle is 16.6835 ms
+A disc flickering at 6 is displayed each 166.8352 ms
+A disc flickering at 12 is displayed each 83.4176 ms
+A true estimation of the frequency 1 of stimulation is 5.9939 Hz
+A true estimation of the frequency 2 of stimulation is 11.9879 Hz
+The true Total duration of sequence is 8.3418 s
+The true Critical duration of sequence is 6.6751 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9552 Hz
+Duration of refresh cycle is 16.6791 ms
+A disc flickering at 6 is displayed each 166.7913 ms
+A disc flickering at 12 is displayed each 83.3956 ms
+A true estimation of the frequency 1 of stimulation is 5.9955 Hz
+A true estimation of the frequency 2 of stimulation is 11.991 Hz
+The true Total duration of sequence is 8.3396 s
+The true Critical duration of sequence is 6.6729 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9585 Hz
+Duration of refresh cycle is 16.6782 ms
+A disc flickering at 6 is displayed each 166.7821 ms
+A disc flickering at 12 is displayed each 83.391 ms
+A true estimation of the frequency 1 of stimulation is 5.9958 Hz
+A true estimation of the frequency 2 of stimulation is 11.9917 Hz
+The true Total duration of sequence is 8.3391 s
+The true Critical duration of sequence is 6.6724 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.1371 Hz
+Duration of refresh cycle is 16.6287 ms
+A disc flickering at 6 is displayed each 166.2867 ms
+A disc flickering at 12 is displayed each 83.1434 ms
+A true estimation of the frequency 1 of stimulation is 6.0137 Hz
+A true estimation of the frequency 2 of stimulation is 12.0274 Hz
+The true Total duration of sequence is 8.3143 s
+The true Critical duration of sequence is 6.6477 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9835 Hz
+Duration of refresh cycle is 16.6712 ms
+A disc flickering at 6 is displayed each 166.7124 ms
+A disc flickering at 12 is displayed each 83.3562 ms
+A true estimation of the frequency 1 of stimulation is 5.9984 Hz
+A true estimation of the frequency 2 of stimulation is 11.9967 Hz
+The true Total duration of sequence is 8.3356 s
+The true Critical duration of sequence is 6.669 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.952 Hz
+Duration of refresh cycle is 16.68 ms
+A disc flickering at 6 is displayed each 166.8002 ms
+A disc flickering at 12 is displayed each 83.4001 ms
+A true estimation of the frequency 1 of stimulation is 5.9952 Hz
+A true estimation of the frequency 2 of stimulation is 11.9904 Hz
+The true Total duration of sequence is 8.34 s
+The true Critical duration of sequence is 6.6733 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9493 Hz
+Duration of refresh cycle is 16.6808 ms
+A disc flickering at 6 is displayed each 166.8076 ms
+A disc flickering at 12 is displayed each 83.4038 ms
+A true estimation of the frequency 1 of stimulation is 5.9949 Hz
+A true estimation of the frequency 2 of stimulation is 11.9899 Hz
+The true Total duration of sequence is 8.3404 s
+The true Critical duration of sequence is 6.6737 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9531 Hz
+Duration of refresh cycle is 16.6797 ms
+A disc flickering at 6 is displayed each 166.797 ms
+A disc flickering at 12 is displayed each 83.3985 ms
+A true estimation of the frequency 1 of stimulation is 5.9953 Hz
+A true estimation of the frequency 2 of stimulation is 11.9906 Hz
+The true Total duration of sequence is 8.3398 s
+The true Critical duration of sequence is 6.6732 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0382 Hz
+Duration of refresh cycle is 16.6561 ms
+A disc flickering at 6 is displayed each 166.5606 ms
+A disc flickering at 12 is displayed each 83.2803 ms
+A true estimation of the frequency 1 of stimulation is 6.0038 Hz
+A true estimation of the frequency 2 of stimulation is 12.0076 Hz
+The true Total duration of sequence is 8.328 s
+The true Critical duration of sequence is 6.6614 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9522 Hz
+Duration of refresh cycle is 16.68 ms
+A disc flickering at 6 is displayed each 166.7997 ms
+A disc flickering at 12 is displayed each 83.3998 ms
+A true estimation of the frequency 1 of stimulation is 5.9952 Hz
+A true estimation of the frequency 2 of stimulation is 11.9904 Hz
+The true Total duration of sequence is 8.34 s
+The true Critical duration of sequence is 6.6733 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9573 Hz
+Duration of refresh cycle is 16.6785 ms
+A disc flickering at 6 is displayed each 166.7852 ms
+A disc flickering at 12 is displayed each 83.3926 ms
+A true estimation of the frequency 1 of stimulation is 5.9957 Hz
+A true estimation of the frequency 2 of stimulation is 11.9915 Hz
+The true Total duration of sequence is 8.3393 s
+The true Critical duration of sequence is 6.6726 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0393 Hz
+Duration of refresh cycle is 16.6557 ms
+A disc flickering at 6 is displayed each 166.5575 ms
+A disc flickering at 12 is displayed each 83.2787 ms
+A true estimation of the frequency 1 of stimulation is 6.0039 Hz
+A true estimation of the frequency 2 of stimulation is 12.0079 Hz
+The true Total duration of sequence is 8.3279 s
+The true Critical duration of sequence is 6.6612 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.941 Hz
+Duration of refresh cycle is 16.6831 ms
+A disc flickering at 6 is displayed each 166.8307 ms
+A disc flickering at 12 is displayed each 83.4153 ms
+A true estimation of the frequency 1 of stimulation is 5.9941 Hz
+A true estimation of the frequency 2 of stimulation is 11.9882 Hz
+The true Total duration of sequence is 8.3415 s
+The true Critical duration of sequence is 6.6749 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9415 Hz
+Duration of refresh cycle is 16.6829 ms
+A disc flickering at 6 is displayed each 166.8293 ms
+A disc flickering at 12 is displayed each 83.4147 ms
+A true estimation of the frequency 1 of stimulation is 5.9941 Hz
+A true estimation of the frequency 2 of stimulation is 11.9883 Hz
+The true Total duration of sequence is 8.3415 s
+The true Critical duration of sequence is 6.6748 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9448 Hz
+Duration of refresh cycle is 16.682 ms
+A disc flickering at 6 is displayed each 166.8202 ms
+A disc flickering at 12 is displayed each 83.4101 ms
+A true estimation of the frequency 1 of stimulation is 5.9945 Hz
+A true estimation of the frequency 2 of stimulation is 11.989 Hz
+The true Total duration of sequence is 8.341 s
+The true Critical duration of sequence is 6.6743 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9554 Hz
+Duration of refresh cycle is 16.6791 ms
+A disc flickering at 6 is displayed each 166.7905 ms
+A disc flickering at 12 is displayed each 83.3953 ms
+A true estimation of the frequency 1 of stimulation is 5.9955 Hz
+A true estimation of the frequency 2 of stimulation is 11.9911 Hz
+The true Total duration of sequence is 8.3395 s
+The true Critical duration of sequence is 6.6729 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9548 Hz
+Duration of refresh cycle is 16.6792 ms
+A disc flickering at 6 is displayed each 166.7923 ms
+A disc flickering at 12 is displayed each 83.3962 ms
+A true estimation of the frequency 1 of stimulation is 5.9955 Hz
+A true estimation of the frequency 2 of stimulation is 11.991 Hz
+The true Total duration of sequence is 8.3396 s
+The true Critical duration of sequence is 6.6729 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9405 Hz
+Duration of refresh cycle is 16.6832 ms
+A disc flickering at 6 is displayed each 166.8321 ms
+A disc flickering at 12 is displayed each 83.4161 ms
+A true estimation of the frequency 1 of stimulation is 5.9941 Hz
+A true estimation of the frequency 2 of stimulation is 11.9881 Hz
+The true Total duration of sequence is 8.3416 s
+The true Critical duration of sequence is 6.6749 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9507 Hz
+Duration of refresh cycle is 16.6804 ms
+A disc flickering at 6 is displayed each 166.8037 ms
+A disc flickering at 12 is displayed each 83.4018 ms
+A true estimation of the frequency 1 of stimulation is 5.9951 Hz
+A true estimation of the frequency 2 of stimulation is 11.9901 Hz
+The true Total duration of sequence is 8.3402 s
+The true Critical duration of sequence is 6.6735 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0608 Hz
+Duration of refresh cycle is 16.6498 ms
+A disc flickering at 6 is displayed each 166.498 ms
+A disc flickering at 12 is displayed each 83.249 ms
+A true estimation of the frequency 1 of stimulation is 6.0061 Hz
+A true estimation of the frequency 2 of stimulation is 12.0122 Hz
+The true Total duration of sequence is 8.3249 s
+The true Critical duration of sequence is 6.6582 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9532 Hz
+Duration of refresh cycle is 16.6797 ms
+A disc flickering at 6 is displayed each 166.7967 ms
+A disc flickering at 12 is displayed each 83.3983 ms
+A true estimation of the frequency 1 of stimulation is 5.9953 Hz
+A true estimation of the frequency 2 of stimulation is 11.9906 Hz
+The true Total duration of sequence is 8.3398 s
+The true Critical duration of sequence is 6.6732 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9488 Hz
+Duration of refresh cycle is 16.6809 ms
+A disc flickering at 6 is displayed each 166.8089 ms
+A disc flickering at 12 is displayed each 83.4045 ms
+A true estimation of the frequency 1 of stimulation is 5.9949 Hz
+A true estimation of the frequency 2 of stimulation is 11.9898 Hz
+The true Total duration of sequence is 8.3404 s
+The true Critical duration of sequence is 6.6738 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9427 Hz
+Duration of refresh cycle is 16.6826 ms
+A disc flickering at 6 is displayed each 166.826 ms
+A disc flickering at 12 is displayed each 83.413 ms
+A true estimation of the frequency 1 of stimulation is 5.9943 Hz
+A true estimation of the frequency 2 of stimulation is 11.9885 Hz
+The true Total duration of sequence is 8.3413 s
+The true Critical duration of sequence is 6.6746 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9452 Hz
+Duration of refresh cycle is 16.6819 ms
+A disc flickering at 6 is displayed each 166.8189 ms
+A disc flickering at 12 is displayed each 83.4095 ms
+A true estimation of the frequency 1 of stimulation is 5.9945 Hz
+A true estimation of the frequency 2 of stimulation is 11.989 Hz
+The true Total duration of sequence is 8.3409 s
+The true Critical duration of sequence is 6.6743 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9459 Hz
+Duration of refresh cycle is 16.6817 ms
+A disc flickering at 6 is displayed each 166.817 ms
+A disc flickering at 12 is displayed each 83.4085 ms
+A true estimation of the frequency 1 of stimulation is 5.9946 Hz
+A true estimation of the frequency 2 of stimulation is 11.9892 Hz
+The true Total duration of sequence is 8.3408 s
+The true Critical duration of sequence is 6.6742 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9552 Hz
+Duration of refresh cycle is 16.6791 ms
+A disc flickering at 6 is displayed each 166.7911 ms
+A disc flickering at 12 is displayed each 83.3956 ms
+A true estimation of the frequency 1 of stimulation is 5.9955 Hz
+A true estimation of the frequency 2 of stimulation is 11.991 Hz
+The true Total duration of sequence is 8.3396 s
+The true Critical duration of sequence is 6.6729 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9369 Hz
+Duration of refresh cycle is 16.6842 ms
+A disc flickering at 6 is displayed each 166.8421 ms
+A disc flickering at 12 is displayed each 83.4211 ms
+A true estimation of the frequency 1 of stimulation is 5.9937 Hz
+A true estimation of the frequency 2 of stimulation is 11.9874 Hz
+The true Total duration of sequence is 8.3421 s
+The true Critical duration of sequence is 6.6754 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9555 Hz
+Duration of refresh cycle is 16.679 ms
+A disc flickering at 6 is displayed each 166.7903 ms
+A disc flickering at 12 is displayed each 83.3952 ms
+A true estimation of the frequency 1 of stimulation is 5.9956 Hz
+A true estimation of the frequency 2 of stimulation is 11.9911 Hz
+The true Total duration of sequence is 8.3395 s
+The true Critical duration of sequence is 6.6728 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9571 Hz
+Duration of refresh cycle is 16.6786 ms
+A disc flickering at 6 is displayed each 166.786 ms
+A disc flickering at 12 is displayed each 83.393 ms
+A true estimation of the frequency 1 of stimulation is 5.9957 Hz
+A true estimation of the frequency 2 of stimulation is 11.9914 Hz
+The true Total duration of sequence is 8.3393 s
+The true Critical duration of sequence is 6.6726 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9483 Hz
+Duration of refresh cycle is 16.681 ms
+A disc flickering at 6 is displayed each 166.8105 ms
+A disc flickering at 12 is displayed each 83.4052 ms
+A true estimation of the frequency 1 of stimulation is 5.9948 Hz
+A true estimation of the frequency 2 of stimulation is 11.9897 Hz
+The true Total duration of sequence is 8.3405 s
+The true Critical duration of sequence is 6.6739 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.951 Hz
+Duration of refresh cycle is 16.6803 ms
+A disc flickering at 6 is displayed each 166.803 ms
+A disc flickering at 12 is displayed each 83.4015 ms
+A true estimation of the frequency 1 of stimulation is 5.9951 Hz
+A true estimation of the frequency 2 of stimulation is 11.9902 Hz
+The true Total duration of sequence is 8.3401 s
+The true Critical duration of sequence is 6.6735 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9435 Hz
+Duration of refresh cycle is 16.6824 ms
+A disc flickering at 6 is displayed each 166.8236 ms
+A disc flickering at 12 is displayed each 83.4118 ms
+A true estimation of the frequency 1 of stimulation is 5.9944 Hz
+A true estimation of the frequency 2 of stimulation is 11.9887 Hz
+The true Total duration of sequence is 8.3412 s
+The true Critical duration of sequence is 6.6745 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9272 Hz
+Duration of refresh cycle is 16.6869 ms
+A disc flickering at 6 is displayed each 166.869 ms
+A disc flickering at 12 is displayed each 83.4345 ms
+A true estimation of the frequency 1 of stimulation is 5.9927 Hz
+A true estimation of the frequency 2 of stimulation is 11.9854 Hz
+The true Total duration of sequence is 8.3434 s
+The true Critical duration of sequence is 6.6768 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9529 Hz
+Duration of refresh cycle is 16.6798 ms
+A disc flickering at 6 is displayed each 166.7977 ms
+A disc flickering at 12 is displayed each 83.3989 ms
+A true estimation of the frequency 1 of stimulation is 5.9953 Hz
+A true estimation of the frequency 2 of stimulation is 11.9906 Hz
+The true Total duration of sequence is 8.3399 s
+The true Critical duration of sequence is 6.6732 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9626 Hz
+Duration of refresh cycle is 16.6771 ms
+A disc flickering at 6 is displayed each 166.7705 ms
+A disc flickering at 12 is displayed each 83.3853 ms
+A true estimation of the frequency 1 of stimulation is 5.9963 Hz
+A true estimation of the frequency 2 of stimulation is 11.9925 Hz
+The true Total duration of sequence is 8.3385 s
+The true Critical duration of sequence is 6.6719 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9378 Hz
+Duration of refresh cycle is 16.684 ms
+A disc flickering at 6 is displayed each 166.8397 ms
+A disc flickering at 12 is displayed each 83.4199 ms
+A true estimation of the frequency 1 of stimulation is 5.9938 Hz
+A true estimation of the frequency 2 of stimulation is 11.9876 Hz
+The true Total duration of sequence is 8.342 s
+The true Critical duration of sequence is 6.6753 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.934 Hz
+Duration of refresh cycle is 16.685 ms
+A disc flickering at 6 is displayed each 166.8501 ms
+A disc flickering at 12 is displayed each 83.4251 ms
+A true estimation of the frequency 1 of stimulation is 5.9934 Hz
+A true estimation of the frequency 2 of stimulation is 11.9868 Hz
+The true Total duration of sequence is 8.3425 s
+The true Critical duration of sequence is 6.6758 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9426 Hz
+Duration of refresh cycle is 16.6826 ms
+A disc flickering at 6 is displayed each 166.8262 ms
+A disc flickering at 12 is displayed each 83.4131 ms
+A true estimation of the frequency 1 of stimulation is 5.9943 Hz
+A true estimation of the frequency 2 of stimulation is 11.9885 Hz
+The true Total duration of sequence is 8.3413 s
+The true Critical duration of sequence is 6.6746 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9747 Hz
+Duration of refresh cycle is 16.6737 ms
+A disc flickering at 6 is displayed each 166.7371 ms
+A disc flickering at 12 is displayed each 83.3685 ms
+A true estimation of the frequency 1 of stimulation is 5.9975 Hz
+A true estimation of the frequency 2 of stimulation is 11.9949 Hz
+The true Total duration of sequence is 8.3369 s
+The true Critical duration of sequence is 6.6702 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9498 Hz
+Duration of refresh cycle is 16.6806 ms
+A disc flickering at 6 is displayed each 166.8062 ms
+A disc flickering at 12 is displayed each 83.4031 ms
+A true estimation of the frequency 1 of stimulation is 5.995 Hz
+A true estimation of the frequency 2 of stimulation is 11.99 Hz
+The true Total duration of sequence is 8.3403 s
+The true Critical duration of sequence is 6.6736 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9559 Hz
+Duration of refresh cycle is 16.6789 ms
+A disc flickering at 6 is displayed each 166.7894 ms
+A disc flickering at 12 is displayed each 83.3947 ms
+A true estimation of the frequency 1 of stimulation is 5.9956 Hz
+A true estimation of the frequency 2 of stimulation is 11.9912 Hz
+The true Total duration of sequence is 8.3395 s
+The true Critical duration of sequence is 6.6728 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9605 Hz
+Duration of refresh cycle is 16.6776 ms
+A disc flickering at 6 is displayed each 166.7764 ms
+A disc flickering at 12 is displayed each 83.3882 ms
+A true estimation of the frequency 1 of stimulation is 5.9961 Hz
+A true estimation of the frequency 2 of stimulation is 11.9921 Hz
+The true Total duration of sequence is 8.3388 s
+The true Critical duration of sequence is 6.6722 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.8972 Hz
+Duration of refresh cycle is 16.6953 ms
+A disc flickering at 6 is displayed each 166.9527 ms
+A disc flickering at 12 is displayed each 83.4764 ms
+A true estimation of the frequency 1 of stimulation is 5.9897 Hz
+A true estimation of the frequency 2 of stimulation is 11.9794 Hz
+The true Total duration of sequence is 8.3476 s
+The true Critical duration of sequence is 6.681 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0344 Hz
+Duration of refresh cycle is 16.6571 ms
+A disc flickering at 6 is displayed each 166.5711 ms
+A disc flickering at 12 is displayed each 83.2856 ms
+A true estimation of the frequency 1 of stimulation is 6.0034 Hz
+A true estimation of the frequency 2 of stimulation is 12.0069 Hz
+The true Total duration of sequence is 8.3286 s
+The true Critical duration of sequence is 6.6619 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9531 Hz
+Duration of refresh cycle is 16.6797 ms
+A disc flickering at 6 is displayed each 166.7971 ms
+A disc flickering at 12 is displayed each 83.3986 ms
+A true estimation of the frequency 1 of stimulation is 5.9953 Hz
+A true estimation of the frequency 2 of stimulation is 11.9906 Hz
+The true Total duration of sequence is 8.3399 s
+The true Critical duration of sequence is 6.6732 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0037 Hz
+Duration of refresh cycle is 16.6656 ms
+A disc flickering at 6 is displayed each 166.6563 ms
+A disc flickering at 12 is displayed each 83.3282 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0007 Hz
+The true Total duration of sequence is 8.3328 s
+The true Critical duration of sequence is 6.6662 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0055 Hz
+Duration of refresh cycle is 16.6651 ms
+A disc flickering at 6 is displayed each 166.6513 ms
+A disc flickering at 12 is displayed each 83.3256 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.004 Hz
+Duration of refresh cycle is 16.6656 ms
+A disc flickering at 6 is displayed each 166.6556 ms
+A disc flickering at 12 is displayed each 83.3278 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0008 Hz
+The true Total duration of sequence is 8.3328 s
+The true Critical duration of sequence is 6.6661 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0067 Hz
+Duration of refresh cycle is 16.6648 ms
+A disc flickering at 6 is displayed each 166.6481 ms
+A disc flickering at 12 is displayed each 83.3241 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0061 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6496 ms
+A disc flickering at 12 is displayed each 83.3248 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0049 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6531 ms
+A disc flickering at 12 is displayed each 83.3265 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9904 Hz
+Duration of refresh cycle is 16.6693 ms
+A disc flickering at 6 is displayed each 166.6932 ms
+A disc flickering at 12 is displayed each 83.3466 ms
+A true estimation of the frequency 1 of stimulation is 5.999 Hz
+A true estimation of the frequency 2 of stimulation is 11.9981 Hz
+The true Total duration of sequence is 8.3347 s
+The true Critical duration of sequence is 6.668 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0022 Hz
+Duration of refresh cycle is 16.6661 ms
+A disc flickering at 6 is displayed each 166.6606 ms
+A disc flickering at 12 is displayed each 83.3303 ms
+A true estimation of the frequency 1 of stimulation is 6.0002 Hz
+A true estimation of the frequency 2 of stimulation is 12.0004 Hz
+The true Total duration of sequence is 8.333 s
+The true Critical duration of sequence is 6.6664 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0054 Hz
+Duration of refresh cycle is 16.6652 ms
+A disc flickering at 6 is displayed each 166.6516 ms
+A disc flickering at 12 is displayed each 83.3258 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0061 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6498 ms
+A disc flickering at 12 is displayed each 83.3249 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0064 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6489 ms
+A disc flickering at 12 is displayed each 83.3244 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0051 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6526 ms
+A disc flickering at 12 is displayed each 83.3263 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0071 Hz
+Duration of refresh cycle is 16.6647 ms
+A disc flickering at 6 is displayed each 166.647 ms
+A disc flickering at 12 is displayed each 83.3235 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant ng
+Screen refresh rate is 60.0028 Hz
+Duration of refresh cycle is 16.6659 ms
+A disc flickering at 6 is displayed each 166.659 ms
+A disc flickering at 12 is displayed each 83.3295 ms
+A true estimation of the frequency 1 of stimulation is 6.0003 Hz
+A true estimation of the frequency 2 of stimulation is 12.0006 Hz
+The true Total duration of sequence is 8.3329 s
+The true Critical duration of sequence is 6.6663 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0072 Hz
+Duration of refresh cycle is 16.6647 ms
+A disc flickering at 6 is displayed each 166.6466 ms
+A disc flickering at 12 is displayed each 83.3233 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3323 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.007 Hz
+Duration of refresh cycle is 16.6647 ms
+A disc flickering at 6 is displayed each 166.6473 ms
+A disc flickering at 12 is displayed each 83.3237 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0062 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6494 ms
+A disc flickering at 12 is displayed each 83.3247 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0067 Hz
+Duration of refresh cycle is 16.6648 ms
+A disc flickering at 6 is displayed each 166.6479 ms
+A disc flickering at 12 is displayed each 83.324 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0067 Hz
+Duration of refresh cycle is 16.6648 ms
+A disc flickering at 6 is displayed each 166.648 ms
+A disc flickering at 12 is displayed each 83.324 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0069 Hz
+Duration of refresh cycle is 16.6647 ms
+A disc flickering at 6 is displayed each 166.6475 ms
+A disc flickering at 12 is displayed each 83.3237 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0065 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6487 ms
+A disc flickering at 12 is displayed each 83.3244 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0043 Hz
+Duration of refresh cycle is 16.6655 ms
+A disc flickering at 6 is displayed each 166.6548 ms
+A disc flickering at 12 is displayed each 83.3274 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.6661 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0115 Hz
+Duration of refresh cycle is 16.6635 ms
+A disc flickering at 6 is displayed each 166.6346 ms
+A disc flickering at 12 is displayed each 83.3173 ms
+A true estimation of the frequency 1 of stimulation is 6.0012 Hz
+A true estimation of the frequency 2 of stimulation is 12.0023 Hz
+The true Total duration of sequence is 8.3317 s
+The true Critical duration of sequence is 6.6651 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0037 Hz
+Duration of refresh cycle is 16.6656 ms
+A disc flickering at 6 is displayed each 166.6564 ms
+A disc flickering at 12 is displayed each 83.3282 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0007 Hz
+The true Total duration of sequence is 8.3328 s
+The true Critical duration of sequence is 6.6662 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0062 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6494 ms
+A disc flickering at 12 is displayed each 83.3247 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0018 Hz
+Duration of refresh cycle is 16.6662 ms
+A disc flickering at 6 is displayed each 166.6617 ms
+A disc flickering at 12 is displayed each 83.3309 ms
+A true estimation of the frequency 1 of stimulation is 6.0002 Hz
+A true estimation of the frequency 2 of stimulation is 12.0004 Hz
+The true Total duration of sequence is 8.3331 s
+The true Critical duration of sequence is 6.6664 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0057 Hz
+Duration of refresh cycle is 16.6651 ms
+A disc flickering at 6 is displayed each 166.6508 ms
+A disc flickering at 12 is displayed each 83.3254 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0052 Hz
+Duration of refresh cycle is 16.6652 ms
+A disc flickering at 6 is displayed each 166.6523 ms
+A disc flickering at 12 is displayed each 83.3262 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.008 Hz
+Duration of refresh cycle is 16.6644 ms
+A disc flickering at 6 is displayed each 166.6444 ms
+A disc flickering at 12 is displayed each 83.3222 ms
+A true estimation of the frequency 1 of stimulation is 6.0008 Hz
+A true estimation of the frequency 2 of stimulation is 12.0016 Hz
+The true Total duration of sequence is 8.3322 s
+The true Critical duration of sequence is 6.6656 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.006 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6501 ms
+A disc flickering at 12 is displayed each 83.325 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0042 Hz
+Duration of refresh cycle is 16.6655 ms
+A disc flickering at 6 is displayed each 166.6549 ms
+A disc flickering at 12 is displayed each 83.3275 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0008 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.6661 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0075 Hz
+Duration of refresh cycle is 16.6646 ms
+A disc flickering at 6 is displayed each 166.6458 ms
+A disc flickering at 12 is displayed each 83.3229 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0015 Hz
+The true Total duration of sequence is 8.3323 s
+The true Critical duration of sequence is 6.6656 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0069 Hz
+Duration of refresh cycle is 16.6648 ms
+A disc flickering at 6 is displayed each 166.6475 ms
+A disc flickering at 12 is displayed each 83.3238 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0054 Hz
+Duration of refresh cycle is 16.6652 ms
+A disc flickering at 6 is displayed each 166.6516 ms
+A disc flickering at 12 is displayed each 83.3258 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0078 Hz
+Duration of refresh cycle is 16.6645 ms
+A disc flickering at 6 is displayed each 166.6449 ms
+A disc flickering at 12 is displayed each 83.3225 ms
+A true estimation of the frequency 1 of stimulation is 6.0008 Hz
+A true estimation of the frequency 2 of stimulation is 12.0016 Hz
+The true Total duration of sequence is 8.3322 s
+The true Critical duration of sequence is 6.6656 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0057 Hz
+Duration of refresh cycle is 16.6651 ms
+A disc flickering at 6 is displayed each 166.6508 ms
+A disc flickering at 12 is displayed each 83.3254 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.006 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.65 ms
+A disc flickering at 12 is displayed each 83.325 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0055 Hz
+Duration of refresh cycle is 16.6651 ms
+A disc flickering at 6 is displayed each 166.6513 ms
+A disc flickering at 12 is displayed each 83.3256 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0045 Hz
+Duration of refresh cycle is 16.6654 ms
+A disc flickering at 6 is displayed each 166.6543 ms
+A disc flickering at 12 is displayed each 83.3271 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0048 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6535 ms
+A disc flickering at 12 is displayed each 83.3267 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0056 Hz
+Duration of refresh cycle is 16.6651 ms
+A disc flickering at 6 is displayed each 166.6511 ms
+A disc flickering at 12 is displayed each 83.3255 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0064 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.649 ms
+A disc flickering at 12 is displayed each 83.3245 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0016 Hz
+Duration of refresh cycle is 16.6662 ms
+A disc flickering at 6 is displayed each 166.6623 ms
+A disc flickering at 12 is displayed each 83.3312 ms
+A true estimation of the frequency 1 of stimulation is 6.0002 Hz
+A true estimation of the frequency 2 of stimulation is 12.0003 Hz
+The true Total duration of sequence is 8.3331 s
+The true Critical duration of sequence is 6.6665 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0057 Hz
+Duration of refresh cycle is 16.6651 ms
+A disc flickering at 6 is displayed each 166.6507 ms
+A disc flickering at 12 is displayed each 83.3254 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0116 Hz
+Duration of refresh cycle is 16.6634 ms
+A disc flickering at 6 is displayed each 166.6344 ms
+A disc flickering at 12 is displayed each 83.3172 ms
+A true estimation of the frequency 1 of stimulation is 6.0012 Hz
+A true estimation of the frequency 2 of stimulation is 12.0023 Hz
+The true Total duration of sequence is 8.3317 s
+The true Critical duration of sequence is 6.6651 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0067 Hz
+Duration of refresh cycle is 16.6648 ms
+A disc flickering at 6 is displayed each 166.6482 ms
+A disc flickering at 12 is displayed each 83.3241 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.005 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6529 ms
+A disc flickering at 12 is displayed each 83.3265 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.004 Hz
+Duration of refresh cycle is 16.6656 ms
+A disc flickering at 6 is displayed each 166.6556 ms
+A disc flickering at 12 is displayed each 83.3278 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0008 Hz
+The true Total duration of sequence is 8.3328 s
+The true Critical duration of sequence is 6.6661 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0054 Hz
+Duration of refresh cycle is 16.6652 ms
+A disc flickering at 6 is displayed each 166.6517 ms
+A disc flickering at 12 is displayed each 83.3259 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.005 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6528 ms
+A disc flickering at 12 is displayed each 83.3264 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0056 Hz
+Duration of refresh cycle is 16.6651 ms
+A disc flickering at 6 is displayed each 166.6511 ms
+A disc flickering at 12 is displayed each 83.3255 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0036 Hz
+Duration of refresh cycle is 16.6657 ms
+A disc flickering at 6 is displayed each 166.6568 ms
+A disc flickering at 12 is displayed each 83.3284 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0007 Hz
+The true Total duration of sequence is 8.3328 s
+The true Critical duration of sequence is 6.6662 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0075 Hz
+Duration of refresh cycle is 16.6646 ms
+A disc flickering at 6 is displayed each 166.6459 ms
+A disc flickering at 12 is displayed each 83.3229 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0015 Hz
+The true Total duration of sequence is 8.3323 s
+The true Critical duration of sequence is 6.6656 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0065 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6486 ms
+A disc flickering at 12 is displayed each 83.3243 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0059 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6503 ms
+A disc flickering at 12 is displayed each 83.3252 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0059 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6504 ms
+A disc flickering at 12 is displayed each 83.3252 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0059 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6502 ms
+A disc flickering at 12 is displayed each 83.3251 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0023 Hz
+Duration of refresh cycle is 16.666 ms
+A disc flickering at 6 is displayed each 166.6604 ms
+A disc flickering at 12 is displayed each 83.3302 ms
+A true estimation of the frequency 1 of stimulation is 6.0002 Hz
+A true estimation of the frequency 2 of stimulation is 12.0005 Hz
+The true Total duration of sequence is 8.333 s
+The true Critical duration of sequence is 6.6664 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0063 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6491 ms
+A disc flickering at 12 is displayed each 83.3246 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0058 Hz
+Duration of refresh cycle is 16.6651 ms
+A disc flickering at 6 is displayed each 166.6507 ms
+A disc flickering at 12 is displayed each 83.3253 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0033 Hz
+Duration of refresh cycle is 16.6658 ms
+A disc flickering at 6 is displayed each 166.6576 ms
+A disc flickering at 12 is displayed each 83.3288 ms
+A true estimation of the frequency 1 of stimulation is 6.0003 Hz
+A true estimation of the frequency 2 of stimulation is 12.0007 Hz
+The true Total duration of sequence is 8.3329 s
+The true Critical duration of sequence is 6.6662 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0051 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6525 ms
+A disc flickering at 12 is displayed each 83.3263 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.005 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6529 ms
+A disc flickering at 12 is displayed each 83.3264 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0063 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6492 ms
+A disc flickering at 12 is displayed each 83.3246 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0048 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6533 ms
+A disc flickering at 12 is displayed each 83.3267 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0068 Hz
+Duration of refresh cycle is 16.6648 ms
+A disc flickering at 6 is displayed each 166.6477 ms
+A disc flickering at 12 is displayed each 83.3239 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.005 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6528 ms
+A disc flickering at 12 is displayed each 83.3264 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0062 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6495 ms
+A disc flickering at 12 is displayed each 83.3247 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0072 Hz
+Duration of refresh cycle is 16.6647 ms
+A disc flickering at 6 is displayed each 166.6467 ms
+A disc flickering at 12 is displayed each 83.3233 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3323 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0044 Hz
+Duration of refresh cycle is 16.6654 ms
+A disc flickering at 6 is displayed each 166.6543 ms
+A disc flickering at 12 is displayed each 83.3272 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.6661 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0045 Hz
+Duration of refresh cycle is 16.6654 ms
+A disc flickering at 6 is displayed each 166.6541 ms
+A disc flickering at 12 is displayed each 83.327 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0025 Hz
+Duration of refresh cycle is 16.666 ms
+A disc flickering at 6 is displayed each 166.6598 ms
+A disc flickering at 12 is displayed each 83.3299 ms
+A true estimation of the frequency 1 of stimulation is 6.0002 Hz
+A true estimation of the frequency 2 of stimulation is 12.0005 Hz
+The true Total duration of sequence is 8.333 s
+The true Critical duration of sequence is 6.6663 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0082 Hz
+Duration of refresh cycle is 16.6644 ms
+A disc flickering at 6 is displayed each 166.6439 ms
+A disc flickering at 12 is displayed each 83.322 ms
+A true estimation of the frequency 1 of stimulation is 6.0008 Hz
+A true estimation of the frequency 2 of stimulation is 12.0016 Hz
+The true Total duration of sequence is 8.3322 s
+The true Critical duration of sequence is 6.6655 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0061 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6498 ms
+A disc flickering at 12 is displayed each 83.3249 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0067 Hz
+Duration of refresh cycle is 16.6648 ms
+A disc flickering at 6 is displayed each 166.6479 ms
+A disc flickering at 12 is displayed each 83.324 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0051 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6526 ms
+A disc flickering at 12 is displayed each 83.3263 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0074 Hz
+Duration of refresh cycle is 16.6646 ms
+A disc flickering at 6 is displayed each 166.6461 ms
+A disc flickering at 12 is displayed each 83.323 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0015 Hz
+The true Total duration of sequence is 8.3323 s
+The true Critical duration of sequence is 6.6656 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0062 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6494 ms
+A disc flickering at 12 is displayed each 83.3247 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0065 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6486 ms
+A disc flickering at 12 is displayed each 83.3243 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0071 Hz
+Duration of refresh cycle is 16.6647 ms
+A disc flickering at 6 is displayed each 166.6471 ms
+A disc flickering at 12 is displayed each 83.3235 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0035 Hz
+Duration of refresh cycle is 16.6657 ms
+A disc flickering at 6 is displayed each 166.6569 ms
+A disc flickering at 12 is displayed each 83.3285 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0007 Hz
+The true Total duration of sequence is 8.3328 s
+The true Critical duration of sequence is 6.6662 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.006 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6501 ms
+A disc flickering at 12 is displayed each 83.325 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0071 Hz
+Duration of refresh cycle is 16.6647 ms
+A disc flickering at 6 is displayed each 166.6468 ms
+A disc flickering at 12 is displayed each 83.3234 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3323 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0059 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6502 ms
+A disc flickering at 12 is displayed each 83.3251 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0061 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6497 ms
+A disc flickering at 12 is displayed each 83.3249 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0063 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6492 ms
+A disc flickering at 12 is displayed each 83.3246 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0069 Hz
+Duration of refresh cycle is 16.6648 ms
+A disc flickering at 6 is displayed each 166.6476 ms
+A disc flickering at 12 is displayed each 83.3238 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0064 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6489 ms
+A disc flickering at 12 is displayed each 83.3244 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0058 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.6505 ms
+A disc flickering at 12 is displayed each 83.3252 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0084 Hz
+Duration of refresh cycle is 16.6643 ms
+A disc flickering at 6 is displayed each 166.6433 ms
+A disc flickering at 12 is displayed each 83.3217 ms
+A true estimation of the frequency 1 of stimulation is 6.0008 Hz
+A true estimation of the frequency 2 of stimulation is 12.0017 Hz
+The true Total duration of sequence is 8.3322 s
+The true Critical duration of sequence is 6.6655 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0063 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.649 ms
+A disc flickering at 12 is displayed each 83.3245 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.006 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.65 ms
+A disc flickering at 12 is displayed each 83.325 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.005 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6529 ms
+A disc flickering at 12 is displayed each 83.3264 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0069 Hz
+Duration of refresh cycle is 16.6648 ms
+A disc flickering at 6 is displayed each 166.6475 ms
+A disc flickering at 12 is displayed each 83.3238 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0047 Hz
+Duration of refresh cycle is 16.6654 ms
+A disc flickering at 6 is displayed each 166.6535 ms
+A disc flickering at 12 is displayed each 83.3268 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0033 Hz
+Duration of refresh cycle is 16.6657 ms
+A disc flickering at 6 is displayed each 166.6574 ms
+A disc flickering at 12 is displayed each 83.3287 ms
+A true estimation of the frequency 1 of stimulation is 6.0003 Hz
+A true estimation of the frequency 2 of stimulation is 12.0007 Hz
+The true Total duration of sequence is 8.3329 s
+The true Critical duration of sequence is 6.6662 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0044 Hz
+Duration of refresh cycle is 16.6654 ms
+A disc flickering at 6 is displayed each 166.6544 ms
+A disc flickering at 12 is displayed each 83.3272 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.6661 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.006 Hz
+Duration of refresh cycle is 16.665 ms
+A disc flickering at 6 is displayed each 166.65 ms
+A disc flickering at 12 is displayed each 83.325 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0012 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0048 Hz
+Duration of refresh cycle is 16.6653 ms
+A disc flickering at 6 is displayed each 166.6534 ms
+A disc flickering at 12 is displayed each 83.3267 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0044 Hz
+Duration of refresh cycle is 16.6655 ms
+A disc flickering at 6 is displayed each 166.6545 ms
+A disc flickering at 12 is displayed each 83.3273 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.6661 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0054 Hz
+Duration of refresh cycle is 16.6652 ms
+A disc flickering at 6 is displayed each 166.6516 ms
+A disc flickering at 12 is displayed each 83.3258 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0037 Hz
+Duration of refresh cycle is 16.6656 ms
+A disc flickering at 6 is displayed each 166.6564 ms
+A disc flickering at 12 is displayed each 83.3282 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0007 Hz
+The true Total duration of sequence is 8.3328 s
+The true Critical duration of sequence is 6.6662 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0073 Hz
+Duration of refresh cycle is 16.6646 ms
+A disc flickering at 6 is displayed each 166.6464 ms
+A disc flickering at 12 is displayed each 83.3232 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0015 Hz
+The true Total duration of sequence is 8.3323 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.004 Hz
+Duration of refresh cycle is 16.6655 ms
+A disc flickering at 6 is displayed each 166.6554 ms
+A disc flickering at 12 is displayed each 83.3277 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0008 Hz
+The true Total duration of sequence is 8.3328 s
+The true Critical duration of sequence is 6.6661 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0044 Hz
+Duration of refresh cycle is 16.6654 ms
+A disc flickering at 6 is displayed each 166.6544 ms
+A disc flickering at 12 is displayed each 83.3272 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.6661 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0032 Hz
+Duration of refresh cycle is 16.6658 ms
+A disc flickering at 6 is displayed each 166.6578 ms
+A disc flickering at 12 is displayed each 83.3289 ms
+A true estimation of the frequency 1 of stimulation is 6.0003 Hz
+A true estimation of the frequency 2 of stimulation is 12.0006 Hz
+The true Total duration of sequence is 8.3329 s
+The true Critical duration of sequence is 6.6662 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0065 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6487 ms
+A disc flickering at 12 is displayed each 83.3243 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0053 Hz
+Duration of refresh cycle is 16.6652 ms
+A disc flickering at 6 is displayed each 166.652 ms
+A disc flickering at 12 is displayed each 83.326 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0056 Hz
+Duration of refresh cycle is 16.6651 ms
+A disc flickering at 6 is displayed each 166.6512 ms
+A disc flickering at 12 is displayed each 83.3256 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0011 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0047 Hz
+Duration of refresh cycle is 16.6654 ms
+A disc flickering at 6 is displayed each 166.6535 ms
+A disc flickering at 12 is displayed each 83.3268 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0063 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6491 ms
+A disc flickering at 12 is displayed each 83.3246 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3325 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0047 Hz
+Duration of refresh cycle is 16.6654 ms
+A disc flickering at 6 is displayed each 166.6535 ms
+A disc flickering at 12 is displayed each 83.3268 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0038 Hz
+Duration of refresh cycle is 16.6656 ms
+A disc flickering at 6 is displayed each 166.6562 ms
+A disc flickering at 12 is displayed each 83.3281 ms
+A true estimation of the frequency 1 of stimulation is 6.0004 Hz
+A true estimation of the frequency 2 of stimulation is 12.0008 Hz
+The true Total duration of sequence is 8.3328 s
+The true Critical duration of sequence is 6.6661 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0072 Hz
+Duration of refresh cycle is 16.6647 ms
+A disc flickering at 6 is displayed each 166.6467 ms
+A disc flickering at 12 is displayed each 83.3234 ms
+A true estimation of the frequency 1 of stimulation is 6.0007 Hz
+A true estimation of the frequency 2 of stimulation is 12.0014 Hz
+The true Total duration of sequence is 8.3323 s
+The true Critical duration of sequence is 6.6657 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0052 Hz
+Duration of refresh cycle is 16.6652 ms
+A disc flickering at 6 is displayed each 166.6523 ms
+A disc flickering at 12 is displayed each 83.3262 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.001 Hz
+The true Total duration of sequence is 8.3326 s
+The true Critical duration of sequence is 6.6659 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0047 Hz
+Duration of refresh cycle is 16.6654 ms
+A disc flickering at 6 is displayed each 166.6536 ms
+A disc flickering at 12 is displayed each 83.3268 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0092 Hz
+Duration of refresh cycle is 16.6641 ms
+A disc flickering at 6 is displayed each 166.6411 ms
+A disc flickering at 12 is displayed each 83.3206 ms
+A true estimation of the frequency 1 of stimulation is 6.0009 Hz
+A true estimation of the frequency 2 of stimulation is 12.0018 Hz
+The true Total duration of sequence is 8.3321 s
+The true Critical duration of sequence is 6.6654 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0046 Hz
+Duration of refresh cycle is 16.6654 ms
+A disc flickering at 6 is displayed each 166.6538 ms
+A disc flickering at 12 is displayed each 83.3269 ms
+A true estimation of the frequency 1 of stimulation is 6.0005 Hz
+A true estimation of the frequency 2 of stimulation is 12.0009 Hz
+The true Total duration of sequence is 8.3327 s
+The true Critical duration of sequence is 6.666 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 60.0064 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6488 ms
+A disc flickering at 12 is displayed each 83.3244 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut

@@ -1,0 +1,720 @@
+
+PsychStartup: Adding path of installed GStreamer runtime to library path. [C:\gstreamer\1.0\msvc_x86_64\bin]
+>> FlickerFaces
+Participant number:  99
+Start with frequency block 1 or 2:  2
+Initiales?:  ng
+Exp?:  FF4
+  
+Is the refresh rate at 60 Hz?
+yes [1] or no [0]: 1
+Is Screen 2 the main display and to the right of Screen 1?
+yes or N/A [1] or no [0]: 1
+PTB-INFO: Multi-display setup in explicit multi-display mode detected. Using the following mapping:
+PTB-INFO: Screen 0 corresponds to the full Windows desktop area. Useful for stereo presentations in stereomode=4 ...
+PTB-INFO: Screen 1 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY1 ...
+PTB-INFO: Screen 2 corresponds to the display area of the monitor with the Windows-internal name \\.\DISPLAY2 ...
+
+PTB-INFO: Your version of Matlab 64-Bit is global system DPI aware. On Windows-8 or later, fullscreen onscreen windows will only work 
+PTB-INFO: properly timing-wise when displayed on displays with the same pixel density as your systems primary display monitor.
+PTB-INFO: For your multi-display setup the stimulus display monitor must have a DPI of (96, 96), matching that of
+PTB-INFO: your primary display monitor. Ideally you will only display on the primary display in the first place.
+PTB-INFO: Displaying on anything with a different DPI will cause mysterious visual timing problems, sync failures etc.
+PTB-INFO: Read 'help RetinaDisplay' for more info on this topic.
+
+
+PTB-INFO: This is Psychtoolbox-3 for Microsoft Windows, under Matlab 64-Bit (Version 3.0.18 - Build date: Jun 27 2022).
+PTB-INFO: OS support status: Windows 10 (Version 10.0) supported and tested to some limited degree.
+PTB-INFO: Type 'PsychtoolboxVersion' for more detailed version information.
+PTB-INFO: Most parts of the Psychtoolbox distribution are licensed to you under terms of the MIT License, with
+PTB-INFO: some restrictions. See file 'License.txt' in the Psychtoolbox root folder for the exact licensing conditions.
+
+PTB-INFO: For information about paid support, support memberships and other commercial services, please type
+PTB-INFO: 'PsychPaidSupportAndServices'.
+
+PTB-INFO: Proper timing and timestamping of visual stimulus onset is not reliably supported at all
+PTB-INFO: when running in windowed mode (non-fullscreen). If PTB aborts with 'Synchronization failure'
+PTB-INFO: you can disable the sync test via call to Screen('Preference', 'SkipSyncTests', 2); .
+PTB-INFO: You won't get proper stimulus onset timestamps in any case though, so windowed mode is of limited use.
+PTB-INFO: The detected endline of the vertical blank interval is equal or lower than the startline. This indicates
+PTB-INFO: that i couldn't detect the duration of the vertical blank interval and won't be able to correct timestamps
+PTB-INFO: for it. This will introduce a very small and constant offset (typically << 1 msec). Read 'help BeampositionQueries'
+PTB-INFO: for how to correct this, should you really require that last few microseconds of precision.
+PTB-INFO: Btw. this can also mean that your systems beamposition queries are slightly broken. It may help timing precision to
+PTB-INFO: enable the beamposition workaround, as explained in 'help ConserveVRAMSettings', section 'kPsychUseBeampositionQueryWorkaround'.
+
+
+PTB-INFO: OpenGL-Renderer is NVIDIA Corporation :: Quadro P600/PCIe/SSE2 :: 4.6.0 NVIDIA 527.27
+PTB-INFO: VBL startline = 1080 , VBL Endline = 1079
+PTB-INFO: Measured monitor refresh interval from beamposition = 16.665951 ms [60.002576 Hz].
+PTB-INFO: Will use beamposition query for accurate Flip time stamping.
+PTB-INFO: Measured monitor refresh interval from VBLsync = 16.664882 ms [60.006425 Hz]. (50 valid samples taken, stddev=0.045268 ms.)
+PTB-INFO: Reported monitor refresh interval from operating system = 16.666667 ms [60.000000 Hz].
+PTB-INFO: Small deviations between reported values are normal and no reason to worry.
+PTB-WARNING: ==============================================================================================================================
+PTB-WARNING: WINDOWS DWM DESKTOP COMPOSITOR IS ACTIVE! ALL FLIP STIMULUS ONSET TIMESTAMPS WILL BE VERY LIKELY UNRELIABLE AND LESS ACCURATE!
+PTB-WARNING: STIMULUS ONSET TIMING WILL BE UNRELIABLE AS WELL, AND GRAPHICS PERFORMANCE MAY BE SEVERELY REDUCED! STIMULUS IMAGES MAY NOT
+PTB-WARNING: SHOW UP AT ALL! DO NOT USE THIS MODE FOR RUNNING REAL EXPERIMENT SESSIONS WITH ANY REQUIREMENTS FOR ACCURATE TIMING!
+PTB-WARNING: ==============================================================================================================================
+For the participant 99
+Screen refresh rate is 60.0064 Hz
+Duration of refresh cycle is 16.6649 ms
+A disc flickering at 6 is displayed each 166.6488 ms
+A disc flickering at 12 is displayed each 83.3244 ms
+A true estimation of the frequency 1 of stimulation is 6.0006 Hz
+A true estimation of the frequency 2 of stimulation is 12.0013 Hz
+The true Total duration of sequence is 8.3324 s
+The true Critical duration of sequence is 6.6658 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+PTB-DEBUG: DrawText: Failed to load external drawtext plugin [Unknown error].
+PTB-INFO: DrawText: Failed to load external drawtext plugin 'libptbdrawtext_ftgl64.dll'. Reverting to legacy GDI text renderer. 'help DrawTextPlugin' for troubleshooting.
+Ready? 
+
+===============================================================================
+Loaded pnet MEX-file for the tcp/udp/ip-toolbox Compiled @ Oct  3 2021 23:20:37
+Version  2.0.5 + PTBMods by Mario Kleiner - 2012-09-10
+Copyright (C) Peter Rydesater, Sweden, et al. , 1998 - 2003
+GNU General Public License, se license.txt for full license notis.
+You are allowed to (dynamicaly) link this file with non-free code. 
+
+   http://www.rydesater.com 
+
+===============================================================================
+
+NetStation-INFO: Estimating drift...
+NetStation-INFO: GetNTP synchronization successful. Synchronization timestamp is UTC 2023-04-07 22:01:44.000.
+NetStation connected 
+
+
+PTB-ERROR: Screen('Flip'); beamposition timestamping computed an *impossible stimulus onset value* of 1529.095831 secs, which would indicate that
+PTB-ERROR: stimulus onset happened *before* it was actually requested! (Earliest theoretically possible 1529.109991 secs).
+
+PTB-ERROR: Some more diagnostic values (only for experts): rawTimestamp = 1529.111878, scanline = 1039
+PTB-ERROR: Some more diagnostic values (only for experts): line_pre_swaprequest = 912, line_post_swaprequest = 922, time_post_swaprequest = 1529.110138
+PTB-ERROR: Some more diagnostic values (only for experts): preflip_vblcount = 0, preflip_vbltimestamp = 1529.095903
+PTB-ERROR: Some more diagnostic values (only for experts): postflip_vblcount = 0, postflip_vbltimestamp = -1.000000, vbltimestampquery_retrycount = 0
+
+PTB-ERROR: This error can be due to either of the following causes:
+PTB-ERROR: Very unlikely: Something is broken in your systems beamposition timestamping. I've disabled high precision
+PTB-ERROR: timestamping for now. Returned timestamps will be less robust and accurate.
+
+PTB-ERROR: The most likely cause would be that Synchronization of stimulus onset (buffer swap) to the
+PTB-ERROR: vertical blank interval VBL is not working properly, or swap completion signalling to PTB is broken.
+PTB-ERROR: Please run the script PerceptualVBLSyncTest to check this. With non-working sync to VBL, all stimulus timing
+PTB-ERROR: is futile. Also run OSXCompositorIdiocyTest on macOS. Also read 'help SyncTrouble' !
+Running experiment on EYELINK CL 4.594  version 3
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 37 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 37 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 40 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 170 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 38 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 37 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 27 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 29 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 19 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 23 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 33 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 34 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 33 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 27 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 69 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 33 frames of movie 1 to keep playback in sync.
+Eyelink connected 
+Start 
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 49 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 49 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 57 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 55 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 124 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 196 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 78 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 308 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 147 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 74 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 72 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 115 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 148 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 109 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 154 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 76 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 112 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 122 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 68 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 95 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 106 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 94 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 155 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 90 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 149 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 36 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 34 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 50 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 77 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 50 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 50 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 67 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 79 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 75 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 102 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 149 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 78 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 112 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 71 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 88 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 40 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 75 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 114 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 82 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 116 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 94 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 66 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 71 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 113 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 90 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 108 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 70 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 78 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 77 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 94 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 78 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 78 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 76 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 111 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 149 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 141 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 67 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 56 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 73 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 79 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 46 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 63 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 48 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 77 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 75 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 67 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 57 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 76 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 54 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 94 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 51 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 64 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 61 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 45 frames of movie 1 to keep playback in sync.
+
+ans =
+
+     0
+
+PTB-INFO: Movie playback had to drop 81 frames of movie 1 to keep playback in sync.
+Receiving data file 'FF4_99.edf'
+EDF file size: 13634.9 KB
+Data file 'FF4_99.edf' can be found in 'C:\Users\Haskins EEG\Documents\Natasa_FlickerFaces4'
+
+ans =
+
+     0
+
+
+ans =
+
+     0
+
+
+
+PTB-INFO: There are still 69 textures, offscreen windows or proxy windows open. Screen('CloseAll') will auto-close them.
+PTB-INFO: This may be fine for studies where you only use a few textures or windows, but a large number of open
+PTB-INFO: textures or offscreen windows can be an indication that you forgot to dispose no longer needed items
+PTB-INFO: via a proper call to Screen('Close', [windowOrTextureIndex]); , e.g., at the end of each trial. These
+PTB-INFO: stale objects linger around and can consume significant memory ressources, causing degraded performance,
+PTB-INFO: timing trouble (if the system has to resort to disk paging) and ultimately out of memory conditions or
+PTB-INFO: crashes. Please check your code. (Screen('Close') is a quick way to release all textures and offscreen windows)
+
+
+
+INFO: PTB's Screen('Flip', 10) command seems to have missed the requested stimulus presentation deadline
+INFO: a total of 146 times out of a total of 44735 flips during this session.
+
+INFO: This number is fairly accurate (and indicative of real timing problems in your own code or your system)
+INFO: if you provided requested stimulus onset times with the 'when' argument of Screen('Flip', window [, when]);
+INFO: If you called Screen('Flip', window); without the 'when' argument, this count is more of a ''mild'' indicator
+INFO: of timing behaviour than a hard reliable measurement. Large numbers may indicate problems and should at least
+INFO: deserve your closer attention. Cfe. 'help SyncTrouble', the FAQ section at www.psychtoolbox.org and the
+INFO: examples in the PDF presentation in PsychDocumentation/Psychtoolbox3-Slides.pdf for more info and timing tips.
+
+>> 

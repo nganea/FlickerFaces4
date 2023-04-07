@@ -105,7 +105,7 @@ squareStim = FlickerFaces_LoadStim(fullfile(rootStim, 'Square'));
 
 % Initialize variables
 withETrecording = 1; % if 0 no interfacing with ET system, if 1 sending trigger to ET system
-withEEGrecording = 0; % if 0 no interfacing with EEG system, if 1 sending trigger to EEG system
+withEEGrecording = 1; % if 0 no interfacing with EEG system, if 1 sending trigger to EEG system
 withPhotodiode = 1; % if 0 = square displayed for checking with photodiode, if 0 = no square
 test = 0; % if 1 = temporary screen mode, if 0 = real mode (for true data collection)
 
@@ -556,13 +556,13 @@ for ss = 1:nbSeq
     d = zeros(stimOnsetBySeq.cyEndTr(ss),8);        % flip characteristics (diagnostic data)
     flipTy = cell(stimOnsetBySeq.cyEndTr(ss),1);    % flip type: cue, fade in, exp, fade out, extend
     
-    % AttGet
-    if withPhotodiode == 1
-        Screen(w, 'FillRect', pdOff, pdRect);
-    end
-    [~,abortExp] = FlickerFaces_AttGet(w, wrect, back, [], ...
-            [width/2-100, height/2-100, width/2+100, height/2+100], ...
-            withPhotodiode, pdOff, pdRect);
+%     % AttGet
+%     if withPhotodiode == 1
+%         Screen(w, 'FillRect', pdOff, pdRect);
+%     end
+%     [~,abortExp] = FlickerFaces_AttGet(w, wrect, back, [], ...
+%             [width/2-100, height/2-100, width/2+100, height/2+100], ...
+%             withPhotodiode, pdOff, pdRect);
 
     % Start ET recording
     if withETrecording == 1 && abortExp == 0

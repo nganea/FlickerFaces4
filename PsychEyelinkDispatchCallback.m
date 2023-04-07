@@ -44,6 +44,10 @@ function rc = PsychEyelinkDispatchCallback(callArgs, msg)
 %
 %
 % History:
+%  7. 4.2023    Randomly select one of 3 animation targets for each corner
+%                   of the screen when calibrating. Close those movies after
+%                   each calibration target is erased (Natasa Ganea)
+%
 % 15. 3.2009    Derived from MemoryBuffer2TextureDemo.m (MK).
 %  4. 4.2009    Updated to use EyelinkGetKey + fixed eyelinktex persistence
 %                   crash (edf).
@@ -200,6 +204,25 @@ switch eyecmd
         calxy = callArgs(2:3);
         clearScreen=1;
         needsupdate = 1;
+        
+        % change cal animation target
+        if isfield(el,'changeCalAnimation') == 1 && el.changeCalAnimation == 1
+              
+            % select a random video from the list provided
+            if isfield(el,'calAnimationList') == 1 && ~isempty(el.calAnimationList)
+                movList = el.calAnimationList;
+                movID = randi(length(movList));
+                calMovieName = char(movList(movID));
+                el.calAnimationTargetFilename = [pwd '\' calMovieName];
+                
+                % load the video
+                if strcmpi(el.calTargetType, 'video') && ~isempty(el.calAnimationTargetFilename)
+                    eyelinkanimationtarget = loadanimationmovie(el,eyewin);
+                end
+            end           
+        end
+        
+        % play cal animation target
         if strcmpi(el.calTargetType, 'video') && ~isempty(eyelinkanimationtarget)
             if  el.calAnimationResetOnTargetMove && Screen('GetMovieTimeIndex', eyelinkanimationtarget.movie)
                 Screen('SetMovieTimeIndex', eyelinkanimationtarget.movie, 0, el.calAnimationSetIndexIsFrames);
@@ -253,8 +276,14 @@ switch eyecmd
             if texkill > 0
                 Screen('Close', texkill);
             end
+
+            if isfield(eyelinkanimationtarget,'CloseMovie') == 1 && eyelinkanimationtarget.CloseMovie == 1
+                Screen('CloseMovie',eyelinkanimationtarget.movie);
+                eyelinkanimationtarget.CloseMovie = 0;
+                eyelinkanimationtarget.movie = 0;
+            end
+
         end
-        
 
         
     case 11 % Exit Cal Display
@@ -418,7 +447,7 @@ return;
 
 
 
-    function  imgtitle=EyelinkDrawCameraImage(eyewin, el, eyelinktex, imgtitle, newImage)
+    function  imgtitle =EyelinkDrawCameraImage(eyewin, el, eyelinktex, imgtitle, newImage)   % newImage not used anywhere in the function?
         persistent lasttitle;
         %         global dh dw offscreen;
         if el.winInfo.StereoMode ~= 0 
@@ -447,7 +476,8 @@ return;
                 if ~isempty(eyelinktex) && exist( 'imgtitle', 'var') && ~isempty(imgtitle)
                     Screen('SelectStereoDrawBuffer', eyewin, it); % select left eye window
                     rect=Screen('TextBounds', eyewin, imgtitle );
-                    [w2, h2]=RectSize(rect);
+                    %[w2, h2]=RectSize(rect);
+                    [~, h2]=RectSize(rect); %w2 not used
                     
                     if -1 == Screen('WindowKind', offscreen)
                         Screen('Close', offscreen);
@@ -476,6 +506,7 @@ return;
 
 
     function EyelinkDrawCalibrationTarget(eyewin, el, calxy)
+        
         if el.winInfo.StereoMode ~= 0
             drawScreens = 2; % stereoscopic drawing
         else
@@ -513,10 +544,10 @@ return;
                     % drawing
                     size=round(el.calibrationtargetsize/100*960); %BRtodo - add/test 'width' instead of 960
                     inset=round(el.calibrationtargetwidth/100*960);%BRtodo - add/test 'width' instead of 960
-                    insetSize = size-2*inset;
-                    if insetSize < 1
-                        insetSize = 1;
-                    end
+%                     insetSize = size-2*inset;
+%                     if insetSize < 1
+%                         insetSize = 1;    % insertSize not used
+%                     end
                     
                     % Use FillOval for larger dots:
                     Screen('FillOval', eyewin, el.calibrationtargetcolour, [calxy(1)-size/2 calxy(2)-size/2 calxy(1)+size/2 calxy(2)+size/2], size+2);
@@ -570,15 +601,28 @@ return;
         
         if doBeep==1
             if PsychPortAudio('GetOpenDeviceCount') > 0
-                warning(sprintf([ 'EyelinkToolbox - ''el.feedbackbeep'' or ''el.targetbeep'' not 0, and a PsychPortAudio\n' ...
+                warning([ 'EyelinkToolbox - ''el.feedbackbeep'' or ''el.targetbeep'' not 0, and a PsychPortAudio\n' ...
                     'device is open. Disabling audio beeps from EyelinkToolbox to avoid conflict.\n' ...
                        ...
-                       ]));
+                       ]);
             else
                 Beeper(f, v, d);
                 Snd('Close');
             end
         end
+    end
+
+    function eyelinkanimationtarget = loadanimationmovie(el,eyewin)
+        [movie, movieduration, fps, imgw, imgh] = Screen('OpenMovie', eyewin, el.calAnimationTargetFilename, 0, 1, el.calAnimationOpenSpecialFlags1);
+        eyelinkanimationtarget.movie = movie;
+        eyelinkanimationtarget.movieduration = movieduration;
+        eyelinkanimationtarget.fps = fps;
+        eyelinkanimationtarget.imgw = imgw;
+        eyelinkanimationtarget.imgh = imgh;
+        % eyelinkanimationtarget.count = 1;
+        eyelinkanimationtarget.calxy =[];
+        eyelinkanimationtarget.CloseMovie = 1;
+        Screen('SetMovieTimeIndex', eyelinkanimationtarget.movie, 0, el.calAnimationSetIndexIsFrames);
     end
 end
 

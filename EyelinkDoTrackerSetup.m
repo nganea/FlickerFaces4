@@ -19,13 +19,14 @@ function result=EyelinkDoTrackerSetup(el, sendkey)
 % then read "help Snd" for instructions on how to provide proper interoperation
 % between PsychPortAudio and the feedback sounds created by Eyelink.
 
-%
+% History:
 % 02-06-01  fwc removed use of global el, as suggest by John Palmer.
 %               el is now passed as a variable, we also initialize Tracker state bit
 %               and Eyelink key values in 'initeyelinkdefaults.m'
 % 15-10-02  fwc added sendkey variable that allows to go directly into a particular mode
 % 22-06-06  fwc OSX-ed
 % 15-06-10  fwc added code for new callback version
+% 07-04-23  Natasa Ganea added code to close the calibration movie.
 
 global eyelinkanimationtarget;
 
@@ -63,10 +64,12 @@ end
 if ~isempty(el.callback)
     if eyelinkanimationtargetMovie == 0 && strcmpi(el.calTargetType, 'video') && ~isempty(el.calAnimationTargetFilename)
         loadanimationmovie(el);
+        eyelinkanimationtargetMovie = 1; % movie loaded
     end
     result = Eyelink( 'StartSetup', 1 );
     if ~inDoDriftCorrection && eyelinkanimationtargetMovie ~= 0 && strcmpi(el.calTargetType, 'video')
         cleanupmovie(el);
+        eyelinkanimationtargetMovie = 0; % movie loaded
     end
     return;
 end
@@ -84,18 +87,18 @@ return
 
 
     function cleanupmovie(el)
-        tex=Screen('GetMovieImage', eyewin, eyelinkanimationtarget.movie, 0);
+        tex=Screen('GetMovieImage', el.window, eyelinkanimationtarget.movie, 0); % eyewin? Why?
         Screen('PlayMovie', eyelinkanimationtarget.movie, 0, el.calAnimationLoopParam);
-%         if tex>0
+         if tex>0
             Screen('Close', tex);
-%         end
+         end
         Screen('CloseMovie', eyelinkanimationtarget.movie);
         eyelinkanimationtarget.movie = 0;
     end
 
 
     function loadanimationmovie(el)
-        [movie movieduration fps imgw imgh] = Screen('OpenMovie',  el.window, el.calAnimationTargetFilename, 0, 1, el.calAnimationOpenSpecialFlags1);
+        [movie, movieduration, fps, imgw, imgh] = Screen('OpenMovie',  el.window, el.calAnimationTargetFilename, 0, 1, el.calAnimationOpenSpecialFlags1);
         eyelinkanimationtarget.movie = movie;
         eyelinkanimationtarget.movieduration = movieduration;
         eyelinkanimationtarget.fps = fps;

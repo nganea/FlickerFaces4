@@ -92,7 +92,7 @@ el.calAnimationOpenSpecialFlags1 = 0; % 2 = most efficient; no sound; See Eyelin
 el.calTargetType = 'video';
 calMovieName = ('calibVid.mp4');
 
-el.calAnimationTargetFilename = [pwd '/EyelinkAnimation/' calMovieName];
+el.calAnimationTargetFilename = [pwd '\EyelinkAnimation\' calMovieName];
 el.calAnimationResetOnTargetMove = true; % false by default, set to true to rewind/replay video from start every time target moves
 el.calAnimationAudioVolume = 0.4; % default volume is 1.0, but too loud on some systems. Setting volume lower to 0.4 (minimum is 0.0)
 
@@ -100,8 +100,8 @@ el.calAnimationAudioVolume = 0.4; % default volume is 1.0, but too loud on some 
 el.changeCalAnimation = 1;
 
 % List of calibration targets
-el.calAnimationList = {'calibVid.mp4' 'dotsGrey.mp4' 'wheelGrey.mp4'};
-el.calAnimationList = strcat('EyelinkAnimation/',a);
+calAnimationList = {'calibVid.mp4' 'dotsGrey.mp4' 'wheelGrey.mp4'};
+el.calAnimationList = strcat('EyelinkAnimation\', calAnimationList);
 
 % Apply the changes made to the el structure above
 EyelinkUpdateDefaults(el);

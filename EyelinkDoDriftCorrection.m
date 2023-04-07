@@ -12,6 +12,9 @@ function success=EyelinkDoDriftCorrection(el, x, y, draw, allowsetup)
 % then read "help Snd" for instructions on how to provide proper interoperation
 % between PsychPortAudio and the feedback sounds created by Eyelink.
 %
+% History:
+%  6. 04.2023   Modified to close movie targets used during drift check (Natasa Ganea)
+%
 global eyelinkanimationtarget;
 
 doInit_eyelinkanimationtargetMovie = false;
@@ -64,7 +67,8 @@ while 1
     
     if ~isempty(el.callback) % if we have a callback set, we call it.
         if eyelinkanimationtargetMovie == 0 && strcmpi(el.calTargetType, 'video') && ~isempty(el.calAnimationTargetFilename)
-            loadanimationmovie(el);
+            eyelinkanimationtarget = loadanimationmovie(el);
+            eyelinkanimationtargetMovie = 1; % movie loaded
         end
         result = Eyelink('DriftCorrStart', x, y, 1, draw, allowsetup);
         
@@ -85,7 +89,8 @@ while 1
     
 end % while
 if ~doInit_inDoTrackerSetup && eyelinkanimationtargetMovie ~= 0 && strcmpi(el.calTargetType, 'video')
-    cleanupmovie(el);
+    cleanupmovie(el); % close movie
+    eyelinkanimationtargetMovie = 0; % set eyelinkanimationtargetMovie = 0 so next iteration load animation movie again
 end
 inDoDriftCorrection = false;
 if ~inDoTrackerSetup
@@ -94,18 +99,18 @@ end
 return
 
     function cleanupmovie(el)
-        tex=Screen('GetMovieImage', eyewin, eyelinkanimationtarget.movie, 0);
+        tex=Screen('GetMovieImage', el.window, eyelinkanimationtarget.movie, 0);
         Screen('PlayMovie', eyelinkanimationtarget.movie, 0, el.calAnimationLoopParam);
-%         if tex>0
+        if tex>0
             Screen('Close', tex);
-%         end
+        end
         Screen('CloseMovie', eyelinkanimationtarget.movie);
         eyelinkanimationtarget.movie = 0;
     end
 
 
-    function loadanimationmovie(el)
-        [movie movieduration fps imgw imgh] = Screen('OpenMovie',  el.window, el.calAnimationTargetFilename, 0, 1, el.calAnimationOpenSpecialFlags1);
+    function eyelinkanimationtarget = loadanimationmovie(el)
+        [movie, movieduration, fps, imgw, imgh] = Screen('OpenMovie',  el.window, el.calAnimationTargetFilename, 0, 1, el.calAnimationOpenSpecialFlags1);
         eyelinkanimationtarget.movie = movie;
         eyelinkanimationtarget.movieduration = movieduration;
         eyelinkanimationtarget.fps = fps;

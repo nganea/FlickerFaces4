@@ -257,7 +257,9 @@ nbCyRota = repmat([jMin;jMax], nbSeq/2, 1);     % nbCyRota = [5;20;5;20]; cyEndS
 if fqABBA == 1
     r = randperm(nbSeq); % store this to shuffle trTrFq, fqLoc, fqFace, cueFq, cueLoc in same way for counterbalancing
     %trTyFq(r,1) = trTyFq(:,1);    % shuffle flicker frequency; 0 = 2 flicker frequencies per trial
-    fqLoc(r,1) = fqLoc(:,1);      % shuffle fq1 location; loc of flicker frequency fq1
+    %fqLoc(r,1) = fqLoc(:,1);      % shuffle fq1 location; loc of flicker frequency fq1
+    fqLoc(1:nbSeq/2,1) = fqLoc(randperm(nbSeq/2)); % shuffle fq1 location; loc of flicker frequency fq1
+    fqLoc(nbSeq/2 + 1:end,1) = fqLoc(nbSeq/2 + randperm(nbSeq/2));
     fqFace(r,1) = fqFace(:,1);    % shuffle face presented with fq1 flicker;
     cueFq(r,1) = cueFq(:,1);      % shuffle cued flicker frequency (fq1 or fq2)
     cueLoc(r,1) = cueLoc(:,1);    % shuffle location of the cue deending on the location of the cued flicker frequency

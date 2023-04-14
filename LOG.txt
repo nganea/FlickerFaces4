@@ -20,3 +20,14 @@ The true Total duration of sequence is 8.3409 s
 The true Critical duration of sequence is 6.6742 s
 The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
 The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut
+For the participant 99
+Screen refresh rate is 59.9575 Hz
+Duration of refresh cycle is 16.6785 ms
+A disc flickering at 6 is displayed each 166.7849 ms
+A disc flickering at 12 is displayed each 83.3925 ms
+A true estimation of the frequency 1 of stimulation is 5.9957 Hz
+A true estimation of the frequency 2 of stimulation is 11.9915 Hz
+The true Total duration of sequence is 8.3392 s
+The true Critical duration of sequence is 6.6726 s
+The disc flickering at 6 Hz has 40 critical items 5 + 5 items used for fadeIn/fadeOut
+The disc flickering at 12 Hz has 80 critical items 10 + 10 items used for fadeIn/fadeOut

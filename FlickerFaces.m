@@ -113,7 +113,7 @@ test = 0; % if 1 = temporary screen mode, if 0 = real mode (for true data collec
 PC = 0; % 2 = Haskins Laptop; 0 = Haskins EEG
 
 % Trials/sequences per participant
-nbSeq = 80; % trials
+nbSeq = 40; % trials; (2023-04-14 NG checked FF3 data FACE tr only, getting ITC & SNR peaks)
 nbNoOvTr = round(nbSeq/1); % no overlap trials (central stim appears 1x)
 nbOvTr = nbSeq - nbNoOvTr; % overlap trials
 

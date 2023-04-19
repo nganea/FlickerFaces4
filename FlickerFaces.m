@@ -92,11 +92,11 @@ faceStimSz = size(faceStim(1).stim);
 animStim = FlickerFaces_LoadStim(fullfile(rootStim, 'Animals'));
 animStimSz = size(animStim(1).stim);
 
-% Load Cloud Image
-cloudStim = FlickerFaces_LoadStim(fullfile(rootStim, 'Cloud'));
-
-% Load Square Image = transparency mask
-squareStim = FlickerFaces_LoadStim(fullfile(rootStim, 'Square'));
+% % Load Cloud Image
+% cloudStim = FlickerFaces_LoadStim(fullfile(rootStim, 'Cloud'));
+% 
+% % Load Square Image = transparency mask
+% squareStim = FlickerFaces_LoadStim(fullfile(rootStim, 'Square'));
 
 %% 1. PARAMETERS FOR USERS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -104,13 +104,13 @@ squareStim = FlickerFaces_LoadStim(fullfile(rootStim, 'Square'));
 %%% 1.1. General Parameters %%%%%%%%%%%%%%%%%%%%%
 
 % Initialize variables
-withETrecording = 1; % if 0 no interfacing with ET system, if 1 sending trigger to ET system
-withEEGrecording = 1; % if 0 no interfacing with EEG system, if 1 sending trigger to EEG system
+withETrecording = 0; % if 0 no interfacing with ET system, if 1 sending trigger to ET system
+withEEGrecording = 0; % if 0 no interfacing with EEG system, if 1 sending trigger to EEG system
 withPhotodiode = 1; % if 0 = square displayed for checking with photodiode, if 0 = no square
 test = 0; % if 1 = temporary screen mode, if 0 = real mode (for true data collection)
 
 % PC used
-PC = 0; % 2 = Haskins Laptop; 0 = Haskins EEG
+PC = 1; % 1 = Haskins desk screen; 2 = Haskins Laptop; 0 = Haskins EEG
 
 % Trials/sequences per participant
 nbSeq = 40; % trials; (2023-04-14 NG checked FF3 data FACE tr only, getting ITC & SNR peaks)
@@ -121,10 +121,10 @@ nbOvTr = nbSeq - nbNoOvTr; % overlap trials
 nbPerifStim = 1;
 
 % Frequency ID
-idFq = [6,12];  % use 2 flicker frequences simulateneously; fq1 = 6 Hz  & fq2 = 12Hz
+idFq = [6,12];  % use 2 flicker frequencies; fq1 = 6Hz & fq2 = 12Hz
 
 % Cued trials
-cueDur = 0; % in seconds (=0.25s); % cue participants to a perif stim for 250 ms
+cueDur = 0; % in seconds (=0.5s); % cue participants to a perif stim for 500 ms
 
 % Extended trials
 extDur = 0;   % in seconds (=2s); % extend trial by 2s after flicker
@@ -157,8 +157,12 @@ RR = 60; % screen refresh rate
 squareWaveP = 0; % 0 = presentation sine wave; 1 = presentation square wave
 
 % Frequency of stimulation
-fq = 6; % frequency 1 (required RR/6 = 10 refresh cycles per item)
-fq2 = 12; % frequency 2 (requires RR/12 = 5 refresh cycles per item)
+fq = idFq(1,1); % flicker fq 1 required RR/6 = 10 refresh cycles per item
+if size(idFq,2) == 2
+    fq2 = idFq(1,2); % flicker fq2 requires RR/12 = 5 refresh cycles per item
+else
+    fq2 = idFq(1,1);
+end
 
 % Check that both frequencies divide equally the screen refresh rate
 if isinteger(int8(RR/fq))~= 1 || isinteger(int8(RR/fq2))~= 1
@@ -174,12 +178,12 @@ fade2 = RR/fq/fq2;  % =0.833 s; 10 items * 5 cycles/item = 50 refresh cycles
 epDur = 2; % =2s EEG epoch NoAtt/Att  
 
 % Duration trial/sequence
-trDur = 8.33; % 50/RR*10; % =8.33s;
+trDur = 7.5; % 50/RR*9=7.5s;
 
 % Number of flicker cycles in a trial/sequence
-nbStim = round(RR*trDur/(RR/fq*RR/fq2),0); % =10 multiples of 5*10 refresh cycles
-fullNbStim = nbStim*(RR/fq2); % 10*5 = 50 flickerCy; 50*10 refCy/flickerCy = 500 refCy; 500 refCy total / 60 refCy per sec = 8.33 sec
-fullNbStim2 = nbStim*(RR/fq); % 10*10 = 100 flickerCy; 100*5 refCy/flickerCy = 500 refCy; 
+nbStim = round(RR*trDur/(RR/fq*RR/fq2),0); % = 450 refCyTot / 5 refCyFq1 / 10 refCyFq2 = 9; during the trial the alpha transparency value is the same for both fq every 50 refCy (happens 9 times during trial).
+fullNbStim = nbStim*(RR/fq2); % 9*5 = 45 flickerCy; 45*10 refCy/flickerCy = 450 refCy; 450 refCy total / 60 refCy per sec = 7.5 sec
+fullNbStim2 = nbStim*(RR/fq); % 9*10 = 90 flickerCy; 90*5 refCy/flickerCy = 450 refCy; 
 
 % Check that both streams of items are equally long
 if fullNbStim/fullNbStim2 ~= fq/fq2
@@ -198,7 +202,6 @@ sizeFaceCm = [7.5, 7.5*(faceStimSz(1)/faceStimSz(2))];  % width face = 3 cm; hei
 sizeAnimCm = [5, 5*(animStimSz(1)/animStimSz(2))];  % width animal = 5 cm; height anim = maintain ratio
 sizeCloudCm = 5;                                % width cloud = 5 cm
 
-% Screen dimensions (cm)
 % Screen dimensions (cm)
 if PC == 0 % Haskins EEG 
     widthCm = 52.5;   % cm
@@ -373,12 +376,12 @@ alphaByCyTot2 = [alphaFadeInByCy2, alphaByCy2, alphaFadeOutByCy2];  % all 12 Hz
 %%% 5.2. Stim textures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 [faceStim] = FlickerFaces_Texture(w,faceStim);
 [animStim] = FlickerFaces_Texture(w,animStim);
-%[cloudStim] = FlickerFaces_Texture(w,cloudStim);
-
-stimTmp = squareStim.stim;
-stimTmp(:,:,:) = back(1);
-squareStim.tex = Screen('MakeTexture', w, stimTmp);
-clearvars stimTmp
+% [cloudStim] = FlickerFaces_Texture(w,cloudStim);
+% 
+% stimTmp = squareStim.stim;
+% stimTmp(:,:,:) = back(1);
+% squareStim.tex = Screen('MakeTexture', w, stimTmp);
+% clearvars stimTmp
 
 %%% 5.3. Stim order %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if nbDogTr > 0 % if there are catch trials
@@ -396,15 +399,15 @@ if nbDogTr > 0 % if there are catch trials
 end
 
 [stimOrderBySeq, stimOrderTable] = FlickerFaces_StimOrder(nbSeq, nbCyReq,...
-    nbItemFade, trTyBySeq, faceStim, animStim, cloudStim, squareStim, pairShuf);
+    nbItemFade, trTyBySeq, faceStim, animStim, 1, 1, pairShuf); % cloudStim = 1; squareStim = 1;
 
 %%% 5.4. Stim onset %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 [stimOnsetBySeq, stimOnsetTable] = FlickerFaces_StimOnset(nbSeq, nbCyReq,...
     nbItemFade, nbItemExp, trTyBySeq, RR);
 
 %%% 5.5. Stim position %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-rectCloud = FlickerFaces_StimRect(nbPerifStim, nbSeq, width, height, widthCm, heightCm,...
-    sizeCloudCm, sizeCloudCm, eccCm, fqABBA, fqLoc);    % fqABBA = 1; counterbalance faces
+% rectCloud = FlickerFaces_StimRect(nbPerifStim, nbSeq, width, height, widthCm, heightCm,...
+%     sizeCloudCm, sizeCloudCm, eccCm, fqABBA, fqLoc);    % fqABBA = 1; counterbalance faces
 
 rectAnim = FlickerFaces_StimRect(nbPerifStim, nbSeq, width, height, widthCm, heightCm,...
     sizeAnimCm(1), sizeAnimCm(2), eccCm, fqABBA, fqLoc); % fqABBA = 1; counterbalance faces
@@ -412,10 +415,10 @@ rectAnim = FlickerFaces_StimRect(nbPerifStim, nbSeq, width, height, widthCm, hei
 rectFace = FlickerFaces_StimRect(0, nbSeq, width, height,...
     widthCm, heightCm, sizeFaceCm(1), sizeFaceCm(2));     % 0 = central stimulus
 
-rectCue = FlickerFaces_StimRect(nbPerifStim, nbSeq, width, height,...
-    widthCm, heightCm, sizeDiscCm, sizeDiscCm);           % 0 = central stimulus
+% rectCue = FlickerFaces_StimRect(nbPerifStim, nbSeq, width, height,...
+%     widthCm, heightCm, sizeDiscCm, sizeDiscCm);           % 0 = central stimulus
 
-% store disc location info
+% store perif stim location info
 fqEcc = struct2table(rectFace); fqEcc = fqEcc.ecc;
 stimLocBySeq = struct('tr', num2cell((1:nbSeq)'), 'fqEcc', num2cell(fqEcc));
 stimLocBySeqT = struct2table(stimLocBySeq);
@@ -443,12 +446,12 @@ trigBySeq = FlickerFaces_Triggers(nbSeq, trTyBySeq.trTyFq, fqLoc,...
 %% 6. READY?
 
 %%% Ready to connect to NetStation & Eyelink?
-Screen(w,'FillRect', back);
+Screen(w, 'FillRect', back);
 if withPhotodiode == 1
     Screen(w, 'FillRect', pdOn, pdRect);
 end
-drawStim(w, 'READY ?', 'Arial', 100, 0, fore)
-Screen(w, 'Flip');
+DrawText(w, 'READY ?', 'Arial', 100, 0, fore)
+Screen('Flip', w);
 fprintf('Ready? \n');
 [~, keyCode] = KbWait([],3); % wait for any key press
 if any(keyCode(keyEsc))
@@ -493,7 +496,7 @@ end
 if withPhotodiode == 1
     Screen(w, 'FillRect', pdOn, pdRect);
 end
-drawStim(w, 'START ?', 'Arial', 100, 0, fore)
+DrawText(w, 'START ?', 'Arial', 100, 0, fore)
 Screen(w, 'Flip');
 fprintf('Start \n');
 WaitSecs(0.2);
@@ -538,7 +541,7 @@ for ss = 1:nbSeq
     
     % define textures
     iA1 = stimOrderBySeq.A1(ss);
-    iS = stimOrderBySeq.square(ss);
+%     iS = stimOrderBySeq.square(ss);
     iF1 = stimOrderBySeq.F1(ss);
     iF2 = stimOrderBySeq.F2(ss);
     
@@ -556,13 +559,14 @@ for ss = 1:nbSeq
     d = zeros(stimOnsetBySeq.cyEndTr(ss),8);        % flip characteristics (diagnostic data)
     flipTy = cell(stimOnsetBySeq.cyEndTr(ss),1);    % flip type: cue, fade in, exp, fade out, extend
     
-%     % AttGet
-%     if withPhotodiode == 1
-%         Screen(w, 'FillRect', pdOff, pdRect);
-%     end
-%     [~,abortExp] = FlickerFaces_AttGet(w, wrect, back, [], ...
-%             [width/2-100, height/2-100, width/2+100, height/2+100], ...
-%             withPhotodiode, pdOff, pdRect);
+    % AttGet
+    if withPhotodiode == 1
+        Screen(w, 'FillRect', pdOff, pdRect);
+    end
+    [~,abortExp] = FlickerFaces_AttGet(w, wrect, back, [], ...
+            [width/2-100, height/2-100, width/2+100, height/2+100], ...
+            withPhotodiode, pdOff, pdRect);
+    Screen(w, 'FillRect', back, [width/2-100, height/2-100, width/2+100, height/2+100]);
 
     % Start ET recording
     if withETrecording == 1 && abortExp == 0
@@ -585,7 +589,7 @@ for ss = 1:nbSeq
         if j <= stimOnsetBySeq.cyEndCue(ss)
             
             flipTy(j) = {'cue'};
-            drawStim(w, '+', 'Arial', 150, 1, fore);           % bold black fix cross
+            DrawText(w, '+', 'Arial', 150, 1, fore);           % bold black fix cross
             Screen('Flip', w);
             
         elseif j <= stimOnsetBySeq.cyEndSeq(ss)
@@ -603,7 +607,7 @@ for ss = 1:nbSeq
                     rotaFace(ss).ang(j,:));
                 Screen('DrawTextures', w, faceTex, [], rectFace(ss).rect, [], [],...
                     alphaBySeq(ss).alpha(j,iAlpha));
-            else                                 % rotate the face, stop flicker
+            else                                 % stop flicker, rotate the face
                 Screen('DrawTextures', w, animStim(iA1).tex, [], rectAnim(ss).rect);
                 Screen('DrawTextures', w, faceTex, [], rectFace(ss).rect, ...
                     rotaFace(ss).ang(j,:));
@@ -705,7 +709,7 @@ for ss = 1:nbSeq
     
     % HALFWAY trials
     if ss == nbSeq/2 && abortExp == 0
-        drawStim(w, 'Halfway through. Take a short break! \n Press SPACEBAR to continue.',...
+        DrawText(w, 'Halfway through. Take a short break! \n Press SPACEBAR to continue.',...
             'Arial', 80, 0, fore)
         Screen(w, 'Flip');
         KbWait([],3);

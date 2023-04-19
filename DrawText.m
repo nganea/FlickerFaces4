@@ -1,4 +1,4 @@
-function drawStim(W, STIM, FONT, SIZE, STYLE, COL, SX, SY)
+function DrawText(W, STIM, FONT, SIZE, STYLE, COL, SX, SY)
     Screen(W, 'TextFont', FONT);
     Screen(W, 'TextSize', SIZE);
     Screen(W, 'TextStyle', STYLE); % 0 = bold; 1 = normal

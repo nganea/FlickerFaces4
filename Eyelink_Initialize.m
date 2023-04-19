@@ -86,7 +86,7 @@ el.feedbackbeep = 0;  % sound a beep after calibration or drift check/correction
 % Required for macOS Catalina users to disable audio
 % playback with animated calibration targets, otherwise causing
 % freezing during playback.
-el.calAnimationOpenSpecialFlags1 = 0; % 2 = most efficient; no sound; See Eyelink_SimpleVideo.m, see Screen('OpenMovie',...,specialFlags1) see http://psychtoolbox.org/docs/Screen-OpenMovie
+el.calAnimationOpenSpecialFlags1 = 1; % 2 = most efficient; no sound; See Eyelink_SimpleVideo.m, see Screen('OpenMovie',...,specialFlags1) see http://psychtoolbox.org/docs/Screen-OpenMovie
 
 % Configure animated calibration target path and properties
 el.calTargetType = 'video';

@@ -141,7 +141,7 @@ while t1 < maxDur
     end
     
     % open TRIAL movie
-    movTmp = Screen('OpenMovie', EXPWIN, movStim);
+    movTmp = Screen('OpenMovie', EXPWIN, movStim, 0, 1, 1); % open movie async = 0; preloadSecs = 1; specialFlags1 = 1 to load .mp4 or .m4v movies faster
     
     % start playing the TRIAL movie
     Screen('SetMovieTimeIndex', movTmp, 0);

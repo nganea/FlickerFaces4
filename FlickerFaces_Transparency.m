@@ -112,16 +112,16 @@ if mod(nbCyReq,2) == 0
     if squareWaveP == 0 
         % Create alpha values for experimental trials
         pondNiveau = sin(linspace(0,pi/2,nbCyReq/2)); % for linear values, apply 'pondNiveau = linspace(0,1,(nbCyReq/2))'
-        pondNiveau = 1-pondNiveau; % We want the sine in a given direction... Here, the square is the most visible (= item is invisible) and it becomes increasingly invisible
+%         pondNiveau = 1-pondNiveau; % We want the sine in a given direction... Here, the square is the most visible (= item is invisible) and it becomes increasingly invisible
         alpha = [pondNiveau,fliplr(pondNiveau)];
         % Create alpha values for fade in/ fade out
         for i=1:nbItemFade
             pondNiveau = sin(linspace(0,baseLin(i),nbCyReq/2)); % fadeIn
-            pondNiveau = 1-pondNiveau;
+%             pondNiveau = 1-pondNiveau;
             alphaTmp = [pondNiveau,fliplr(pondNiveau)];
             alphaFadeIn(i,:) = alphaTmp;
             pondNiveau = sin(linspace(0,baseLinR(i),nbCyReq/2)); % fadeOut
-            pondNiveau = 1-pondNiveau;
+%             pondNiveau = 1-pondNiveau;
             alphaTmp = [pondNiveau,fliplr(pondNiveau)];
             alphaFadeOut(i,:) = alphaTmp;
         end
@@ -146,16 +146,16 @@ elseif mod(nbCyReq,2) == 1
     if squareWaveP == 0
         % Create alpha values for experimental trials
         pondNiveau = sin(linspace(0,pi/2,round(nbCyReq/2))); % if 7 cycles in total, here computations are made for 4 values
-        pondNiveau = 1-pondNiveau;
+%         pondNiveau = 1-pondNiveau;
         alpha = [pondNiveau,fliplr(pondNiveau(1:(round(nbCyReq/2)-1)))];
         % Create alpha values for fade in/ fade out
         for i=1:nbItemFade
             pondNiveau = sin(linspace(0,baseLin(i),round(nbCyReq/2))); % fadeIn
-            pondNiveau = 1-pondNiveau;
+%             pondNiveau = 1-pondNiveau;
             alphaTmp = [pondNiveau,fliplr(pondNiveau(1:(round(nbCyReq/2)-1)))];
             alphaFadeIn(i,:)= alphaTmp;
             pondNiveau = sin(linspace(0,baseLinR(i),round(nbCyReq/2))); % fadeOut
-            pondNiveau = 1-pondNiveau;
+%             pondNiveau = 1-pondNiveau;
             alphaTmp = [pondNiveau,fliplr(pondNiveau(1:(round(nbCyReq/2)-1)))];
             alphaFadeOut(i,:)= alphaTmp;
         end

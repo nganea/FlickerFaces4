@@ -104,13 +104,13 @@ animStimSz = size(animStim(1).stim);
 %%% 1.1. General Parameters %%%%%%%%%%%%%%%%%%%%%
 
 % Initialize variables
-withETrecording = 0; % if 0 no interfacing with ET system, if 1 sending trigger to ET system
-withEEGrecording = 0; % if 0 no interfacing with EEG system, if 1 sending trigger to EEG system
+withETrecording = 1; % if 0 no interfacing with ET system, if 1 sending trigger to ET system
+withEEGrecording = 1; % if 0 no interfacing with EEG system, if 1 sending trigger to EEG system
 withPhotodiode = 1; % if 0 = square displayed for checking with photodiode, if 0 = no square
 test = 0; % if 1 = temporary screen mode, if 0 = real mode (for true data collection)
 
 % PC used
-PC = 1; % 1 = Haskins desk screen; 2 = Haskins Laptop; 0 = Haskins EEG
+PC = 0; % 1 = Haskins desk screen; 2 = Haskins Laptop; 0 = Haskins EEG
 
 % Trials/sequences per participant
 nbSeq = 40; % trials; (2023-04-14 NG checked FF3 data FACE tr only, getting ITC & SNR peaks)
@@ -229,11 +229,11 @@ back = [128 128 128]; % background color; [128 128 128] = grey
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % The user is asked to encode metada
+exp = input ('Exp?:  ', 's');
 SsID = input ('Participant number:  ', 's');
 fqBlk1 = input ('Start with frequency block 1 or 2:  ', 's');
 fqBlk1 = str2double(fqBlk1);
 ini = input ('Initiales?:  ', 's');
-exp = input ('Exp?:  ', 's');
 disp('  ');
 
 % Check RR
@@ -406,6 +406,8 @@ end
     nbItemFade, nbItemExp, trTyBySeq, RR);
 
 %%% 5.5. Stim position %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+rectAttGet = [width/2-100, height/2-100, width/2+100, height/2+100];
+
 % rectCloud = FlickerFaces_StimRect(nbPerifStim, nbSeq, width, height, widthCm, heightCm,...
 %     sizeCloudCm, sizeCloudCm, eccCm, fqABBA, fqLoc);    % fqABBA = 1; counterbalance faces
 
@@ -446,9 +448,9 @@ trigBySeq = FlickerFaces_Triggers(nbSeq, trTyBySeq.trTyFq, fqLoc,...
 %% 6. READY?
 
 %%% Ready to connect to NetStation & Eyelink?
-Screen(w, 'FillRect', back);
+Screen('FillRect', w, back);
 if withPhotodiode == 1
-    Screen(w, 'FillRect', pdOn, pdRect);
+    Screen('FillRect', w, pdOn, pdRect);
 end
 DrawText(w, 'READY ?', 'Arial', 100, 0, fore)
 Screen('Flip', w);
@@ -494,10 +496,10 @@ end
 
 %%% Start experiment?
 if withPhotodiode == 1
-    Screen(w, 'FillRect', pdOn, pdRect);
+    Screen('FillRect', w, pdOn, pdRect);
 end
 DrawText(w, 'START ?', 'Arial', 100, 0, fore)
-Screen(w, 'Flip');
+Screen('Flip', w);
 fprintf('Start \n');
 WaitSecs(0.2);
 [~, keyCode] = KbWait([],3); % wait for any key press
@@ -561,12 +563,12 @@ for ss = 1:nbSeq
     
     % AttGet
     if withPhotodiode == 1
-        Screen(w, 'FillRect', pdOff, pdRect);
+        Screen('FillRect', w, pdOff, pdRect);
     end
-    [~,abortExp] = FlickerFaces_AttGet(w, wrect, back, [], ...
-            [width/2-100, height/2-100, width/2+100, height/2+100], ...
+    [~,abortExp] = FlickerFaces_AttGet(w, wrect, back, [], rectAttGet, ...
             withPhotodiode, pdOff, pdRect);
-    Screen(w, 'FillRect', back, [width/2-100, height/2-100, width/2+100, height/2+100]);
+    Screen('FillRect', w, back, rectAttGet);
+    Screen('Flip', w);
 
     % Start ET recording
     if withETrecording == 1 && abortExp == 0
@@ -579,9 +581,9 @@ for ss = 1:nbSeq
         % PHOTODIODE
         if withPhotodiode == 1
             if pdBySeq(ss).cyOn(j,1) == 0
-                Screen(w, 'FillRect', pdOff, pdRect);
+                Screen('FillRect', w, pdOff, pdRect);
             elseif pdBySeq(ss).cyOn(j,1) == 1
-                Screen(w, 'FillRect', pdOn, pdRect);
+                Screen('FillRect', w, pdOn, pdRect);
             end
         end
         
@@ -675,7 +677,7 @@ for ss = 1:nbSeq
 
     % blank screen
     if withPhotodiode == 1
-        Screen(w, 'FillRect', pdOff, pdRect);
+        Screen('FillRect', w, pdOff, pdRect);
     end
     Screen('Flip', w);
     
@@ -695,9 +697,9 @@ for ss = 1:nbSeq
     if attGet == 1
         [~,abortExp] = FlickerFaces_AttGet(w, wrect, back, [], ...
             [width/2-100, height/2-100, width/2+100, height/2+100]);
-        Screen(w, 'FillRect', back); % clean background after AttGet
+        Screen('FillRect', w, back); % clean background after AttGet
         if withPhotodiode == 1
-            Screen(w, 'FillRect', pdOff, pdRect);
+            Screen('FillRect', w, pdOff, pdRect);
         end
         Screen('Flip', w);
     end
@@ -711,7 +713,7 @@ for ss = 1:nbSeq
     if ss == nbSeq/2 && abortExp == 0
         DrawText(w, 'Halfway through. Take a short break! \n Press SPACEBAR to continue.',...
             'Arial', 80, 0, fore)
-        Screen(w, 'Flip');
+        Screen('Flip', w);
         KbWait([],3);
     end
 

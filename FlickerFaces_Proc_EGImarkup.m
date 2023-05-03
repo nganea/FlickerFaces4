@@ -15,7 +15,7 @@ if nargin < 1 || isempty(s) == 1
 end
 
 if nargin < 2 || isempty(exp) == 1
-    exp = 'FF3';                   % experiment
+    exp = 'FF4';                   % experiment
 end
 
 if nargin < 3 || isempty(minFixDur) == 1
@@ -23,7 +23,7 @@ if nargin < 3 || isempty(minFixDur) == 1
 end
 
 if nargin < 4 || isempty(trDur) == 1
-    trDur = 6667;         % ms; trial duration (full flicker sequence)
+    trDur = 7500;         % ms; trial duration (full flicker sequence)
 end
 
 if nargin < 5 || isempty(trDurJitMax) == 1
@@ -31,7 +31,7 @@ if nargin < 5 || isempty(trDurJitMax) == 1
 end
 
 if nargin < 6 || isempty(dinDiff) == 1
-    dinDiff = 333;        % ms; flicker duration between DINs; FF2_1-7 = 667ms; FF2_8-11 = 333ms
+    dinDiff = 834;        % ms; flicker duration between DINs; 833.6 ms
 end
 
 if nargin < 7 || isempty(dinDiffJitMax) == 1
@@ -77,8 +77,8 @@ dinDiffStd = table2array(fileInDiag(:,'dinDiffStd'));    % std PT trig during tr
 dinStimOnset = table2array(fileInDiag(:,'dinStimOnset'));% timestamp STIM_ONSET based on PD DIN1
 eTimeDIN2sta = table2array(fileInDiag(:,'eTimeDIN2'));   % timestamp PD DIN2; CA EEG epoch start
 eTimeDIN2end = eTimeDIN2sta(:,1) + minFixDur;            % timestamp CA EEG epoch end (after 2000 ms)
-eTimeDIN7sta = table2array(fileInDiag(:,'eTimeDIN7'));   % timestamp PD DIN7; OA EEG epoch start
-eTimeDIN7end = eTimeDIN7sta(:,1) + minFixDur;            % timestamp OA EEG epoch end (after 2000 ms)
+eTimeDIN6sta = table2array(fileInDiag(:,'eTimeDIN6'));   % timestamp PD DIN6; OA EEG epoch start
+eTimeDIN6end = eTimeDIN6sta(:,1) + minFixDur;            % timestamp OA EEG epoch end (after 2000 ms)
 
 % ET gaze interpolation data
 fileInGazeInt = readtable(fileInGazeInt,'PreserveVariableNames',true); % read comma delimited file
@@ -103,7 +103,7 @@ exclCAorOA = zeros(length(rAOI),1);  % store EEG epoch excl reason
 e = 0;
 ff = 0;
 
-% check whether fix started before epoch and ended after epoch -  DIN2 and DIN7 used for EEG epoch
+% check whether fix started before epoch and ended after epoch -  DIN2 and DIN6 used for EEG epoch
 for f = 1:length(rAOI)
     
     % do this for trials with fixations
@@ -134,11 +134,11 @@ for f = 1:length(rAOI)
                 
                 % fix covers OA EEG epoch
                 ff = ff + 1; % count
-                if (eTimeFixSta(f,1) <= eTimeDIN7sta(t,1)) &&...
-                        (eTimeFixEnd(f,1) >= eTimeDIN7end(t,1))
+                if (eTimeFixSta(f,1) <= eTimeDIN6sta(t,1)) &&...
+                        (eTimeFixEnd(f,1) >= eTimeDIN6end(t,1))
                     
                     eegEpTrig(ff,1) = strcat('O',trig(2:end)); % trig
-                    eegEpSta(ff,1) = dinStimOnset(t,1) + eTimeDIN7sta(t,1);    % start time
+                    eegEpSta(ff,1) = dinStimOnset(t,1) + eTimeDIN6sta(t,1);    % start time
                     
                     % fix doesn't cover CA EEG epoch, fix covers only OA EEG epoch
                     if isnan(eegEpSta(ff-1,1))
@@ -148,11 +148,11 @@ for f = 1:length(rAOI)
                     
                 % 2 fix per trial covers the OA EEG epoch
                 elseif tr(f,1) == tr(f+1,1) &&...
-                        (eTimeFixSta(f+1,1) <= eTimeDIN7sta(t,1)) &&...
-                        (eTimeFixEnd(f+1,1) >= eTimeDIN7end(t,1))
+                        (eTimeFixSta(f+1,1) <= eTimeDIN6sta(t,1)) &&...
+                        (eTimeFixEnd(f+1,1) >= eTimeDIN6end(t,1))
                     
                     eegEpTrig(ff,1) = strcat('O',trig(2:end)); % trig
-                    eegEpSta(ff,1) = dinStimOnset(t,1) + eTimeDIN7sta(t,1);    % start time
+                    eegEpSta(ff,1) = dinStimOnset(t,1) + eTimeDIN6sta(t,1);    % start time
                     
                     % fix doesn't cover CA EEG epoch, fix covers only OA EEG epoch
                     if isnan(eegEpSta(ff-1,1))

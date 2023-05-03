@@ -13,7 +13,7 @@ if nargin < 1 || isempty(s) == 1
 end
 
 if nargin < 2 || isempty(exp) == 1
-    exp = 'FF3';     % experiment name
+    exp = 'FF4';     % experiment name
 end
 
 if nargin < 3 || isempty(maxBlinkDur) == 1
@@ -25,23 +25,23 @@ if nargin < 4 || isempty(minFixDur) == 1
 end
 
 if nargin < 5 || isempty(maxNbTr) == 1
-    maxNbTr = 80;        % max number of trials
+    maxNbTr = 40;        % max number of trials
 end
 
 if nargin < 6 || isempty(caStaMs) == 1
-    caStaMs = 667;       % covert attention EEG epoch start
+    caStaMs = 834;       % covert attention EEG epoch start
 end
 
 if nargin < 7 || isempty(caEndMs) == 1
-    caEndMs = 2667;       % covert attention EEG epoch end
+    caEndMs = 2834;       % covert attention EEG epoch end
 end
 
 if nargin < 8 || isempty(oaStaMs) == 1
-    oaStaMs = 4000;       % overt attention EEG epoch start
+    oaStaMs = 4167;       % overt attention EEG epoch start
 end
 
 if nargin < 9 || isempty(oaEndMs) == 1
-    oaEndMs = 6000;       % overt attention EEG Epoch end
+    oaEndMs = 6167;       % overt attention EEG Epoch end
 end
 
 %% 1. Filename

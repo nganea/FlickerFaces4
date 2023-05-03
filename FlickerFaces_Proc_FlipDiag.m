@@ -1,4 +1,4 @@
-function [TT] = FlickerFaces_Proc_FlipDiag(s, exp, nbDinPerTr, DIN2, DIN7)
+function [TT] = FlickerFaces_Proc_FlipDiag(s, exp, nbDinPerTr, DIN2, DIN6)
 % This function calculates the interval between the DIN triggers in each tr.
 % It also calculate the trial duration based on photodiode DIN triggers and
 % PTB Screen('Flip',w) info. It saves everything into a summary table.
@@ -12,19 +12,19 @@ if nargin < 1 || isempty(s) == 1
 end
 
 if nargin < 2 || isempty(exp) == 1
-    exp = 'FF3';                    % experiment name
+    exp = 'FF4';                    % experiment name
 end
 
 if nargin < 3 || isempty(nbDinPerTr) == 1
-    nbDinPerTr = 11;                % number of DINs per trial; FF2_1-7 = 11 DIN; FF2_8-11 = 21
+    nbDinPerTr = 10;                % number of DINs per trial;
 end
 
 if nargin < 4 || isempty(DIN2) == 1
-    DIN2 = 2;                       % Covert Att ep = 2 sec; DIN2:DIN5; % DIN2 == 2, 667 ms; DIN2 == 3, 333 ms
+    DIN2 = 2;                       % Covert Att ep = 2 sec;
 end
 
-if nargin < 5 || isempty(DIN7) == 1
-    DIN7 = 7;                       % Overt Att ep = 2 sec; DIN7:DIN10; % DIN7 == 7, 667 ms; DIN7 == 13, 333 ms
+if nargin < 5 || isempty(DIN6) == 1
+    DIN6 = 6;                       % Overt Att ep = 2 sec;
 end
 %% Initialize
 
@@ -110,12 +110,12 @@ end
 
 % calculate time interval between photodiode triggers (between DINs)
 t = 0;                              % tr count; start from 0
-trTrig = strings(length(dDiag),1);  % tr Matlab trigger ('S1Lf')
+trTrig = strings(length(dDiag),1);  % tr Matlab trigger ('s1Lf')
 trNb = zeros(length(dDiag),1);      % tr number
 trFqTy = zeros(length(dDiag),1);    % tr flicker frequency (0 = both freq; 1 = fq1; 2 = fq2)
 trDur = zeros(length(dDiag),1);     % tr dur
 eTimeDIN2 = zeros(length(dDiag),1); % elapsed time since trial start to DIN2
-eTimeDIN7 = zeros(length(dDiag),1); % elapsed time since trial start to DIN7
+eTimeDIN6 = zeros(length(dDiag),1); % elapsed time since trial start to DIN6
 dif = zeros(nbDinPerTr,1);          % store time difference between DINs in one trial
 dinDiffMean = zeros(length(dDiag),1);   % store mean time difference between DINs in one trial
 dinDiffStd = zeros(length(dDiag),1);    % store std time differebce between DINs in one trial
@@ -129,7 +129,7 @@ for i = 1:length(evtName)
     e = char(evtName(i,1));
     
     % if Matlab event
-    if strcmp(e(1),'S') == 1
+    if strcmp(e(1),'s') == 1
         
         % reset values (needed later in the tr)
         t = t + 1;       % increase tr nb
@@ -163,11 +163,11 @@ for i = 1:length(evtName)
             stimEnd = evtTimeMs(i,1);           % DIN during the tr
             trDur(t,1) = stimEnd-stimSta;       % tr dur or stim dur based on DIN nb
             
-            % store tr dur for DIN2 and DIN7 need for EEG epochs
+            % store tr dur for DIN2 and DIN6 need for EEG epochs
             if d == DIN2                        % d == 2, 667 ms; d == 3, 333 ms
                 eTimeDIN2(t,1) = trDur(t,1);
-            elseif d == DIN7                    % d == 7, 667 ms; d == 13, 333 ms
-                eTimeDIN7(t,1) = trDur(t,1);
+            elseif d == DIN6                    % d == 7, 667 ms; d == 13, 333 ms
+                eTimeDIN6(t,1) = trDur(t,1);
             end
             
             % average DIN diff during the tr
@@ -183,7 +183,7 @@ end
 
 TT = table(trNb, flipMissNbCy, flipDurNbCy,...
     trDur, dinDiffMean, dinDiffStd, dinTrigOffset, trTrig, trFqTy,...
-    dinStimOnset, eTimeDIN2, eTimeDIN7);
+    dinStimOnset, eTimeDIN2, eTimeDIN6);
 TT = renamevars(TT, ["flipMissNbCy","flipDurNbCy","trDur"],... % old name
     ["ptbMissedFlips","ptbFlipsOver17ms","dinTrDur"]);        % new name
 writetable(TT, fileOutDiag);

@@ -41,13 +41,17 @@ fileOutDiag = sprintf('%s_%d_Diag.csv', exp, s);
 fileOutDiag = fullfile(rootData, fileOutDiag);
 
 % load PTB Screen('Flip') timestamps
-load(fileInMat,'dDiag')
+load(fileInMat,'dDiag');
+
+% load totalPress to identify trial without keypress
+load(fileInMat, 'totalPress');
 
 %% Screen Flip Diag
 
 % init vars
 flipMissNbCy = zeros(length(dDiag),1);
 flipDurNbCy = zeros(length(dDiag),1);
+keypressMiss = zeros(length(dDiag),1);
 
 % for each tr, check the Screen('Flip') timestamps
 for i = 1:length(dDiag)
@@ -88,6 +92,11 @@ for i = 1:length(dDiag)
     % store nb of problematic refresh cycles per tr
     flipMissNbCy(i,1) = dd;
     flipDurNbCy(i,1) = ddd;
+    
+    % store if no keypress recorded per tr
+    if sum(totalPress(i,1:2)) ~= 2
+        keypressMiss(i,1) = 1;
+    end
 end
 
 %% EEG Photodiode Diag
@@ -142,7 +151,7 @@ for i = 1:length(evtName)
         trNb(t,1) = evtNb(i,1);
         trFqTy(t,1) = fqTy(i,1);
         
-        % if Photodiode event (DIN)
+    % if Photodiode event (DIN)
     elseif strcmp(e(1),'D') == 1
         
         % reset values (needed later in the tr)
@@ -156,7 +165,7 @@ for i = 1:length(evtName)
             dinStimOnset(t,1) = evtTimeMs(i,1); % store STIM_ONSET timestamp
             dinTrigOffset(t,1) = stimSta-trSta; % offset Matlab trigger & DIN trigger
             
-            % later DIN
+        % later DIN
         else
             
             % tr dur based on DIN diff
@@ -183,9 +192,9 @@ end
 
 TT = table(trNb, flipMissNbCy, flipDurNbCy,...
     trDur, dinDiffMean, dinDiffStd, dinTrigOffset, trTrig, trFqTy,...
-    dinStimOnset, eTimeDIN2, eTimeDIN6);
-TT = renamevars(TT, ["flipMissNbCy","flipDurNbCy","trDur"],... % old name
-    ["ptbMissedFlips","ptbFlipsOver17ms","dinTrDur"]);        % new name
+    dinStimOnset, eTimeDIN2, eTimeDIN6, keypressMiss);
+TT = renamevars(TT, ["flipMissNbCy","flipDurNbCy","trDur"],...          % old name
+    ["ptbMissedFlips","ptbFlipsOver17ms","dinTrDur"]);  % new name
 writetable(TT, fileOutDiag);
 
 end

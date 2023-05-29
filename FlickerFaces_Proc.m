@@ -5,8 +5,8 @@ if nargin < 1 || isempty(s) == 1
     s = 1;
 end
 
-% some participants had different DIN rate
-nbDinPerTr = 10;    % 21 DINs during the trial
+% DINs marking the beginning of the Att segments
+nbDinPerTr = 10;    % 10 DINs during the trial
 DIN2 = 2;           % Covert Att ep 2s DIN2
 DIN6 = 6;           % Overt Att ep 2s DIN6
 dinDiff = 834;      % ms; time diff between DINs 833.6 ms

@@ -27,7 +27,7 @@ if nargin < 4 || isempty(trDur) == 1
 end
 
 if nargin < 5 || isempty(trDurJitMax) == 1
-    trDurJitMax = 2;      % ms; trial duration jitter (graphics card has a +/-2 ms jitter)
+    trDurJitMax = 3;      % ms; trial duration jitter (graphics card has a +/-3 ms jitter)
 end
 
 if nargin < 6 || isempty(dinDiff) == 1
@@ -79,6 +79,7 @@ eTimeDIN2sta = table2array(fileInDiag(:,'eTimeDIN2'));   % timestamp PD DIN2; CA
 eTimeDIN2end = eTimeDIN2sta(:,1) + minFixDur;            % timestamp CA EEG epoch end (after 2000 ms)
 eTimeDIN6sta = table2array(fileInDiag(:,'eTimeDIN6'));   % timestamp PD DIN6; OA EEG epoch start
 eTimeDIN6end = eTimeDIN6sta(:,1) + minFixDur;            % timestamp OA EEG epoch end (after 2000 ms)
+keypressMiss = table2array(fileInDiag(:,'keypressMiss'));% is participat failed to press key when detecting movement 2x
 
 % ET gaze interpolation data
 fileInGazeInt = readtable(fileInGazeInt,'PreserveVariableNames',true); % read comma delimited file
@@ -241,7 +242,25 @@ for i = 1:length(gazeIntDurCA)
     end
 end
 
-%% 6. Recount number of EEG epochs
+%% 6. Excl tr based on keypressMiss
+
+exclKeypressMiss = zeros(length(eegTr),1); % store EEG epoch excl reason
+for i = 1:length(keypressMiss)
+    
+    % mark trials for exclusion
+    if keypressMiss(i,1) > 0
+        excl = find(eegTr == i);
+        if ~isempty(excl)
+            for e = 1:length(excl) 
+                exclKeypressMiss(excl(e),1) = 1;       % mark for excl CA EEG epoch
+                eegEpSta(excl(e),1) = NaN;             % excl tr start time
+                eegEpTr(excl(e),1) = NaN;              % excl tr
+            end
+        end
+    end
+end
+
+%% 7. Recount number of EEG epochs
 e = 0;
 for i = 1:length(eegEpTr)
     if i > 1 && eegEpTr(i,1) > 0 && eegEpTr(i,1) == eegEpTr(i-1,1)
@@ -261,15 +280,17 @@ for i = length(eegTr):-1:1
         exclCAorOA(i,:) = [];
         exclDinDiag(i,:) = [];
         exclGazeIntDur(i,:) = [];
+        exclKeypressMiss(i,:) = [];
     end
 end
 
-%% 7. Save Markup file
+%% 8. Save Markup file
 
 % XLS file
-TT = table(eegTr, eegEpTr, eegEpSta, eegEpTrig, exclCAorOA, exclDinDiag, exclGazeIntDur);
+TT = table(eegTr, eegEpTr, eegEpSta, eegEpTrig, exclCAorOA, exclDinDiag,...
+    exclGazeIntDur, exclKeypressMiss);
 TT.Properties.VariableNames = {'Tr', 'evtTr', 'evtTime', 'evtCode', ...
-    'exclCAorOA', 'exclDinDiag', 'exclGazeIntDur'};
+    'exclCAorOA', 'exclDinDiag', 'exclGazeIntDur', 'exclKeypressMiss'};
 writetable(TT, fileOutMarkupXLS);
 
 % clean NaN rows

@@ -181,7 +181,7 @@ end
 
 % intialize vars
 minFixDurSample = minFixDur/2; % 2 ms per sample
-fixAll = zeros(maxNbTr*2,8);     % ps can make up to 2 fix per trial (tr has 6s, fix has 2s)
+fixAll = zeros(maxNbTr*2,8);   % ps can make up to 2 fix per trial (tr has 7.5s)
 
 % for the entire GAZE file, find fix
 t = 0; % trial count

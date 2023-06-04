@@ -35,11 +35,11 @@ if nargin < 6 || isempty(dinDiff) == 1
 end
 
 if nargin < 7 || isempty(dinDiffJitMax) == 1
-    dinDiffJitMax = 1;    % ms; flicker duration between DINs jitter
+    dinDiffJitMax = 2;    % ms; flicker duration between DINs jitter
 end
 
 if nargin < 8 || isempty(dinDiffStdMax) == 1
-    dinDiffStdMax = 1.5;  % max variability flicker duration between DINs
+    dinDiffStdMax = 2;  % max variability flicker duration between DINs
 end
 
 if nargin < 9 || isempty(gazeIntDurMax) == 1

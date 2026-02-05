@@ -1,4 +1,4 @@
-% Script for steady state visual evoked potentials (SSVEP) experiments.
+ % Script for steady state visual evoked potentials (SSVEP) experiments.
 % Items display in sine wave.
 %
 % Fabienne Chetail - August 2015 - Fabienne.Chetail@ulb.be
@@ -374,7 +374,7 @@ alphaByCyTot2 = [alphaFadeInByCy2, alphaByCy2, alphaFadeOutByCy2];  % all 12 Hz
     RR, cueDur, extDur, epDur, fqBlk1);
 
 %%% 5.2. Stim textures %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-[faceStim] = FlickerFaces_Texture(w,faceStim);
+[faceStim] = FlickerFaces_Texture(w,faceStim); % grey scale
 [animStim] = FlickerFaces_Texture(w,animStim);
 % [cloudStim] = FlickerFaces_Texture(w,cloudStim);
 % 

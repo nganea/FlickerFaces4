@@ -12,14 +12,14 @@ DIN6 = 6;           % Overt Att ep 2s DIN6
 dinDiff = 834;      % ms; time diff between DINs 833.6 ms
 
 % run functions
-[TT_FlipDiag] = FlickerFaces_Proc_FlipDiag(s, [], nbDinPerTr, DIN2, DIN6);
+[TT_FlipDiag] = FlickerFaces_Proc_FlipDiag(s, 'FF4c', nbDinPerTr, DIN2, DIN6);
 WaitSecs(1);
-[TT_FixAll, err] = FlickerFaces_Proc_GazeData(s);
+[TT_FixAll, err] = FlickerFaces_Proc_GazeData(s, 'FF4c');
 WaitSecs(1);
-[TT_Markup] = FlickerFaces_Proc_EGImarkup(s, [], [], [], [],...
+[TT_Markup] = FlickerFaces_Proc_EGImarkup(s, 'FF4c', [], [], [],...
     dinDiff);
 
 % notification
-fprintf('FF2_%d done\n',s);
+fprintf('FF4c_%d done\n',s);
 
 end

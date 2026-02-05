@@ -48,10 +48,11 @@ end
 
 folderPs = sprintf('%s_%d', exp, s);
 folderData = fullfile(pwd, 'FlickerFaces.data', folderPs);
-folderEToutput = ('Output');
+% folderEToutput = ('Output'); % changed on 2023-12-21 because of ET batch processing
 
 fileInGaze = sprintf('%s_%d_GAZE.xls', exp, s);
-fileInGaze = fullfile(folderData, folderPs, folderEToutput, fileInGaze);
+% fileInGaze = fullfile(folderData, folderPs, folderEToutput, fileInGaze);
+fileInGaze = fullfile(folderData, folderPs, fileInGaze);     % changed on 2023-12-21 because of ET batch processing
 
 fileOutGazeInt = sprintf('%s_%d_GazeInt_%d.csv', exp, s, minFixDur);
 fileOutGazeInt = fullfile(folderData, fileOutGazeInt);
@@ -66,18 +67,29 @@ fileInGaze = struct2table(tdfread(fileInGaze)); % read tab delimited file
 
 % read values
 tr = table2array(fileInGaze(:,'TRIAL_INDEX'));         % tr
-rBlink = table2array(fileInGaze(:,'RIGHT_IN_BLINK'));  % right eye in blink (1 = blink; 0 = fixat)
-rSacc = table2array(fileInGaze(:,'RIGHT_IN_SACCADE')); % right eye in sacc (1 = sacc; 0 = fixat)
+if sum(strcmp('RIGHT_IN_BLINK',fileInGaze.Properties.VariableNames)) % check which eye was recorded
+    rBlink = table2array(fileInGaze(:,'RIGHT_IN_BLINK'));  % right eye in blink (1 = blink; 0 = fixat)
+    rSacc = table2array(fileInGaze(:,'RIGHT_IN_SACCADE')); % right eye in sacc (1 = sacc; 0 = fixat)
+else
+    rBlink = table2array(fileInGaze(:,'LEFT_IN_BLINK'));
+    rSacc = table2array(fileInGaze(:,'LEFT_IN_SACCADE'));
+end
 timestamp = table2array(fileInGaze(:,'TIMESTAMP'));    % timestamp sample
 
 % configure NaN values in RIGHT_INTEREST_AREA_ID
-rAOI_tmp = table2array(fileInGaze(:,'RIGHT_INTEREST_AREA_ID'));   % right eye interest area (. = empty; 1 = cloud; 2 = fq1; 3 = fq2)
+if sum(strcmp('RIGHT_INTEREST_AREA_ID',fileInGaze.Properties.VariableNames))
+    rAOI_tmp = table2array(fileInGaze(:,'RIGHT_INTEREST_AREA_ID'));   % right eye interest area (. = empty; 1 = cloud; 2 = fq1; 3 = fq2)
+else
+    rAOI_tmp = table2array(fileInGaze(:,'LEFT_INTEREST_AREA_ID'));
+end
 rAOI = zeros(height(fileInGaze),1);
 for i = 1:length(rAOI_tmp)
     if strcmp('.',rAOI_tmp(i,1))
         rAOI(i,1) = NaN;
-    else
+    elseif ischar(rAOI_tmp(i,1))
         rAOI(i,1) = str2double(rAOI_tmp(i,1));
+    else
+        rAOI(i,1) = rAOI_tmp(i,1);        
     end
 end
 clear rAOI_tmp;
@@ -103,18 +115,22 @@ for i = 1:length(rAOI)
         caEnd = i + ceil(caEndMs/2);   % covert attention end
         oaSta = i + floor(oaStaMs/2);  % overt attention start
         oaEnd = i + ceil(oaEndMs/2);   % overt attention end
+        intNum = 0;     % rest nr interp at tr start
+        intDur = 0;     % rest interp dur at tr start
+        intDurCA = 0;   % rest interp dur suring CA segment at tr start
+        intDurOA = 0;   % rest interp dur suring OA segment at tr start
     end
     
     % NaN value in rAOI
-    if i > 1 && isnan(rAOI(i)) && (rBlink(i) == 1 || rSacc(i) == 1)
+    if i > 1 && isnan(rAOI(i))           % && (rBlink(i) == 1 || rSacc(i) == 1)
         b = b + 1;                       % count number of consecutive NaN
         if b == 1
-            bSta = i;                    % identify when the blink started
+            bSta = i;                    % identify when blink started
             aoiBeforeBlink = rAOI(i-1);  % store the AOI fixated before the blink
             trBeforeBlink = tr(i-1);     % trial number
         end
         
-        % value in rAOI
+    % value in rAOI
     elseif ~isnan(rAOI(i))
         if b > 0                         % if a NaN in the previous sample
             bEnd = i-1;                  % get index of last NaN value
@@ -128,47 +144,38 @@ for i = 1:length(rAOI)
                     % total interp dur this trail
                     intDur = intDur + b*2;               % interpolation dur per trial
                     
-                    % if total interp dur during trial less than minFixDur
-                    if intDur < minFixDur
-                        
-                        % interpolate blink values
-                        rAOI_interp(bSta:bEnd,1) = aoiBeforeBlink;
-                        
-                        % interp dur CA EEG epoch
-                        if bSta > caSta && bEnd < caEnd
-                            intDurCA = intDurCA + (bEnd-bSta+1)*2;
-                        elseif bSta > caSta && bSta < caEnd && ...
-                                bEnd > caEnd && bEnd < oaSta
-                            intDurCA = intDurCA + (caEnd-bSta+1)*2;
-                        elseif bSta < caSta && bEnd > caSta && bEnd < caEnd
-                            intDurCA = intDurCA + (caSta-bEnd+1)*2;
-                        end
-                        
-                        % interp dur OA EEG epoch
-                        if bSta > oaSta && bEnd < oaEnd
-                            intDurOA = intDurOA + (bEnd-bSta+1)*2;
-                        elseif bSta > oaSta && bSta < oaEnd && bEnd > oaEnd
-                            intDurOA = intDurOA + (oaEnd-bSta+1)*2;
-                        elseif bSta > caEnd && bSta < oaSta &&...
-                                bEnd > oaSta && bEnd < oaEnd
-                            intDurOA = intDurOA + (caSta-bEnd+1)*2;
-                        end                
-                        
-                        % store intrpolation info
-                        intNum = intNum + 1;                              % number interpolations per trial
-                        gazeInt(trBeforeBlink,1) = trBeforeBlink;         % trial
-                        gazeInt(trBeforeBlink,2) = intNum;                % number of inetrpolations
-                        gazeInt(trBeforeBlink,3) = intDur;                % total interpolation duration
-                        gazeInt(trBeforeBlink,4) = intDurCA;              % interpolation duration CA EEG epoch
-                        gazeInt(trBeforeBlink,5) = intDurOA;              % interpolation duration OA EEG epoch
-                        
+                    % interpolate blink values
+                    rAOI_interp(bSta:bEnd,1) = aoiBeforeBlink;
+                    
+                    % interp dur CA EEG epoch
+                    if bSta >= caSta && bEnd <= caEnd
+                        intDurCA = intDurCA + (bEnd-bSta+1)*2;
+                    elseif bSta > caSta && bSta < caEnd && ...
+                            bEnd > caEnd && bEnd < oaSta
+                        intDurCA = intDurCA + (caEnd-bSta+1)*2;
+                    elseif bSta < caSta && bEnd > caSta && bEnd < caEnd
+                        intDurCA = intDurCA + (bEnd-caSta+1)*2;
                     end
+                    
+                    % interp dur OA EEG epoch
+                    if bSta >= oaSta && bEnd <= oaEnd
+                        intDurOA = intDurOA + (bEnd-bSta+1)*2;
+                    elseif bSta > oaSta && bSta < oaEnd && bEnd > oaEnd
+                        intDurOA = intDurOA + (oaEnd-bSta+1)*2;
+                    elseif bSta > caEnd && bSta < oaSta &&...
+                            bEnd > oaSta && bEnd < oaEnd
+                        intDurOA = intDurOA + (bEnd-oaSta+1)*2;
+                    end
+                    
+                    % store intrpolation info
+                    intNum = intNum + 1;                              % number interpolations per trial
+                    gazeInt(trBeforeBlink,1) = trBeforeBlink;         % trial
+                    gazeInt(trBeforeBlink,2) = intNum;                % number of inetrpolations
+                    gazeInt(trBeforeBlink,3) = intDur;                % total interpolation duration
+                    gazeInt(trBeforeBlink,4) = intDurCA;              % interpolation duration CA EEG epoch
+                    gazeInt(trBeforeBlink,5) = intDurOA;              % interpolation duration OA EEG epoch
+                    
                 end
-            else
-                intNum = 0;
-                intDur = 0;
-                intDurCA = 0;
-                intDurOA = 0;
             end
             
             % reset count of consecutive NaN

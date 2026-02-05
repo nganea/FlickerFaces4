@@ -1,4 +1,4 @@
-function [stimT] = FlickerFaces_Texture(w,stimT)
+function [stimT] = FlickerFaces_Texture(w,stimT,greyScale)
 
 if nargin < 1 || isempty(w) == 1
     Screen('Preference', 'SkipSyncTests', 1);
@@ -18,10 +18,19 @@ if nargin < 2 || isempty(stimT)
     stimT = FlickerFaces_LoadStim(fullfile(rootStim, 'Cloud'));
 end
 
+if nargin < 3 || isempty(greyScale)
+    greyScale = 0; % added 2023-08-10 to make grey images
+end
+
 nbStimT = size(stimT);
 nbStimT = nbStimT(2);
 for ii = 1:nbStimT
     stimTmp = stimT(ii).stim;
+    % added 2023-08-10 to make grey transparent images
+    if greyScale == 1
+        stimTmp(:,:,2) = stimTmp(:,:,1);
+        stimTmp(:,:,3) = stimTmp(:,:,1);
+    end
     stimTmp(:,:,4) = stimT(ii).alpha;
     stimT(ii).tex = Screen('MakeTexture', w, stimTmp);
 end

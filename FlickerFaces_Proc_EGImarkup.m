@@ -27,7 +27,7 @@ if nargin < 4 || isempty(trDur) == 1
 end
 
 if nargin < 5 || isempty(trDurJitMax) == 1
-    trDurJitMax = 3;      % ms; trial duration jitter (graphics card has a +/-3 ms jitter)
+    trDurJitMax = 4;      % ms; trial duration jitter (graphics card has a +/-4 ms jitter)
 end
 
 if nargin < 6 || isempty(dinDiff) == 1
@@ -35,15 +35,15 @@ if nargin < 6 || isempty(dinDiff) == 1
 end
 
 if nargin < 7 || isempty(dinDiffJitMax) == 1
-    dinDiffJitMax = 1;    % ms; flicker duration between DINs jitter
+    dinDiffJitMax = 2;    % ms; flicker duration between DINs jitter
 end
 
 if nargin < 8 || isempty(dinDiffStdMax) == 1
-    dinDiffStdMax = 1.5;  % max variability flicker duration between DINs
+    dinDiffStdMax = 2;  % max variability flicker duration between DINs
 end
 
 if nargin < 9 || isempty(gazeIntDurMax) == 1
-    gazeIntDurMax = 500;  % maximum Gaze interpolation duration during EEG epoch 500 ms
+    gazeIntDurMax = 600;  % maximum Gaze interpolation duration during EEG epoch 600 ms (=2 blinks; maxBlinkDur = 300ms)
 end
 
 %% 1. Filename
@@ -175,13 +175,13 @@ for f = 1:length(rAOI)
             end
             
             % EEG tr number
-            if mod(ff,2) == 0
+            if ff > 0 && mod(ff,2) == 0
                 eegTr(ff-1,1) = t;   % store trial number (CA epoch)
                 eegTr(ff,1) = t;     % store trial number (OA epoch)
             end
             
             % EEG epoch tr number
-            if isnan(eegEpSta(ff,1))
+            if ff > 0 && isnan(eegEpSta(ff,1))
                 eegEpTr(ff,1) = NaN;
                 if eegEpTr(ff-1,1) == 0
                     eegEpTr(ff-1,1) = NaN;

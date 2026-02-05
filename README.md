@@ -14,8 +14,8 @@ Continue to look at the Face and pay attention to the Face. When the Face swings
 
 The Face image flickers, and the Cartoon image is static.
 
-Participants attend to the peripheral Cartoon = NoAtt epoch.
-Participants attend to the central Cartoon = Att epoch.
+Participants attend to the peripheral image = NoAtt epoch.
+Participants attend to the central image = Att epoch.
 
 After each epoch, the Face/Cartoon moves for 500 ms. Motion onset is jittered (can be either 83 ms or 333 ms after NoAtt/Att epoch ends).  
 

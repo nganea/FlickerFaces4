@@ -1,7 +1,7 @@
 Study details and results can be found here:
 Ganea, N., Aslin, R. N., & Lewkowicz, D. J. (2025). Covert attention modulates the SSVEP in a paradigm suitable for infants and young children. Attention, Perception, & Psychophysics, 1-20. doi: 10.3758/s13414-025-03097-4
 
-
+###################################################################################
 FlickerFaces.m is the main script. It calls on all the other scripts and functions. 
 FlickerFaces_Practice.m goes through the study instructions and 6 practice trials. 
 

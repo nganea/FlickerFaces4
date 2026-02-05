@@ -1,4 +1,5 @@
 Study details and results can be found here:
+
 Ganea, N., Aslin, R. N., & Lewkowicz, D. J. (2025). Covert attention modulates the SSVEP in a paradigm suitable for infants and young children. Attention, Perception, & Psychophysics, 1-20. doi: 10.3758/s13414-025-03097-4
 
 ###################################################################################
@@ -21,5 +22,3 @@ After each epoch, the Face/Cartoon moves for 500 ms. Motion onset is jittered (c
 The study is divided into 2 blocks. The user can make the Face flicker at different frequencies in each block, or can intermix trials.
 
 The peripheral cartoon appears half of the time on the Left side of the screen and half of the time on the Right side.
-
-Created by Natasa Ganea, 2023, Haskins Laboratories, natasa.ganea@gmail.com
